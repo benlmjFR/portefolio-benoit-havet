@@ -3,18 +3,24 @@ import { motion, AnimatePresence } from "framer-motion";
 import classNames from "classnames/bind";
 import styles from "./CvOverlay.module.scss";
 import { X } from "lucide-react";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 
 const cx = classNames.bind(styles);
 
 const CvOverlay: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const cvUrl = "/CV_HAVET_BENOIT.pdf";
+  const cvEnUrl = "/Havet_CV_EN.pdf";
 
   const t = useTranslations("CvOverlay");
 
   const openButton = t("openButton");
   const downLoadButton = t("downLoadButton");
+
+  const currentLocale = useLocale();
+
+  const isFrench = currentLocale === "fr";
+  const cvToUse = isFrench ? cvUrl : cvEnUrl;
 
   return (
     <>
@@ -44,7 +50,7 @@ const CvOverlay: React.FC = () => {
                 <X size={22} />
               </button>
               <a
-                href={cvUrl}
+                href={cvToUse}
                 download
                 className={cx("download")}
                 target="_blank"
@@ -55,11 +61,7 @@ const CvOverlay: React.FC = () => {
             </div>
 
             <div className={cx("content")}>
-              <iframe
-                src={cvUrl}
-                title="CV"
-                className={cx("iframe")}
-              />
+              <iframe src={cvToUse} title="CV" className={cx("iframe")} />
             </div>
           </motion.div>
         )}
