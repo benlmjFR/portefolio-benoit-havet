@@ -10,7 +10,7 @@ export const Contacts = () => {
   return (
     <div className={cx("contacts")}>
       <a
-        href="https://github.com/BENOITHAVETlmj"
+        href="https://github.com/benlmjFR"
         target="_blank"
         rel="noopener noreferrer"
         className={cx("contacts__item")}
