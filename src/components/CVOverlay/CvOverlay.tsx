@@ -10,7 +10,7 @@ const cx = classNames.bind(styles);
 const CvOverlay: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const cvUrl = "/CV_HAVET_BENOIT.pdf";
-  const cvEnUrl = "/Havet_CV_EN.pdf";
+  const cvEnUrl = "/CV_HAVET_BENOIT_EN.pdf";
 
   const t = useTranslations("CvOverlay");
 
