@@ -11,9 +11,9 @@ import Script from "next/script";
 
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://portefolio-b-havet.vercel.app"),
+  metadataBase: new URL("https://portefolio-benoit-havet.vercel.app"),
   title: {
-    default: "Benoît Havet | Développeur Front-End React & UX Designer",
+    default: "Benoît Havet — Développeur Web & Mobile Full-Stack",
     template: "%s | Benoît Havet",
   },
   description:
@@ -21,6 +21,7 @@ export const metadata: Metadata = {
   keywords: [
     "Benoît Havet",
     "Développeur front-end",
+    "Développeur full-stack",
     "React",
     "Next.js",
     "TypeScript",
@@ -29,20 +30,20 @@ export const metadata: Metadata = {
     "Création site web",
     "Web performance",
   ],
-  authors: [{ name: "Benoît Havet", url: "https://portefolio-b-havet.vercel.app" }],
+  authors: [{ name: "Benoît Havet", url: "https://portefolio-benoit-havet.vercel.app" }],
   creator: "Benoît Havet",
   publisher: "Benoît Havet",
   openGraph: {
     type: "website",
     locale: "fr_FR",
-    url: "https://portefolio-b-havet.vercel.app/fr",
-    title: "Benoît Havet — Développeur Front-End & UX Designer",
+    url: "https://portefolio-benoit-havet.vercel.app/fr",
+    title: "Benoît Havet — Développeur Web & Mobile Full-Stack",
     description:
       "Développeur front-end passionné, spécialisé en React et Next.js. Découvrez mon parcours, mes projets et mon approche du design web moderne.",
     siteName: "Portfolio Benoît Havet",
     images: [
       {
-        url: "https://portefolio-b-havet.vercel.app/og-image.jpg",
+        url: "https://portefolio-benoit-havet.vercel.app/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Aperçu du portfolio de Benoît Havet",
@@ -54,15 +55,15 @@ export const metadata: Metadata = {
     title: "Benoît Havet — Développeur Front-End & UX Designer",
     description:
       "Portfolio et projets de Benoît Havet, développeur spécialisé en React, Next.js et UX design.",
-    images: ["https://portefolio-b-havet.vercel.app/og-image.jpg"],
+    images: ["https://portefolio-benoit-havet.vercel.app/og-image.jpg"],
     creator: "", 
   },
   alternates: {
-    canonical: "https://portefolio-b-havet.vercel.app/fr",
+    canonical: "https://portefolio-benoit-havet.vercel.app/fr",
     languages: {
-      "fr": "https://portefolio-b-havet.vercel.app/fr",
-      "en": "https://portefolio-b-havet.vercel.app/en",
-      "kr": "https://portefolio-b-havet.vercel.app/kr",
+      "fr": "https://portefolio-benoit-havet.vercel.app/fr",
+      "en": "https://portefolio-benoit-havet.vercel.app/en",
+      "kr": "https://portefolio-benoit-havet.vercel.app/kr",
     },
   },
   category: "technology",
@@ -123,13 +124,13 @@ export default async function LocaleLayout({
               "@context": "https://schema.org",
               "@type": "Person",
               name: "Benoît Havet",
-              jobTitle: "Développeur Front-End React & UX Designer",
-              url: "https://portefolio-b-havet.vercel.app",
-              image: "https://portefolio-b-havet.vercel.app/og-image.jpg",
+              jobTitle: "Développeur Web & Mobile Full-Stack",
+              url: "https://portefolio-benoit-havet.vercel.app",
+              image: "https://portefolio-benoit-havet.vercel.app/og-image.jpg",
               sameAs: [
                 "https://github.com/BENOITHAVETlmj/portefolio-b-havet",
                 "https://www.linkedin.com/in/beno%C3%AEt-havet-708752154/",
-                "https://portefolio-b-havet.vercel.app",
+                "https://portefolio-benoit-havet.vercel.app",
               ],
             }),
           }}

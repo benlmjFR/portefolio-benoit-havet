@@ -10,6 +10,12 @@
   },
   "Skills": [
     {
+      "title": "Back-end & API",
+      "description1": "Développement d’API sécurisées et scalables avec Node.js, NestJS et TypeScript.",
+      "description2": "Gestion des données et de la logique métier à l’aide de Prisma ORM et bases de données SQL, avec une attention particulière portée à la structure et à la maintenabilité.",
+      "description3": "Intégration de solutions backend modernes comme Supabase, gestion de l’authentification, des performances et des bonnes pratiques serveur."
+    },    
+    {
       "title": "Front-end & SPA",
       "description1": "Développement d’interfaces modernes et performantes avec Next.js, React et TypeScript.",
       "description2": "Création de Single Page Applications fluides, dynamiques et optimisées. Conception et développement de composants d’interface réutilisables, performants et faciles à maintenir",

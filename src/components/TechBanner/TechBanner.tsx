@@ -21,6 +21,11 @@ import {
   SiGoogleanalytics,
   SiContentful,
   SiFigma,
+  SiNestjs, 
+  SiPrisma,
+  SiSupabase,
+  SiSqlite,
+
 } from "react-icons/si";
 import { Orientation, useOrientation } from "@/src/hooks/useOrientation";
 
@@ -44,7 +49,11 @@ const icons = {
   Cypress: SiCypress,
   GoogleAnalytics: SiGoogleanalytics,
   Contentful: SiContentful,
+  Nestjs: SiNestjs,
   Figma: SiFigma,
+  Prisma: SiPrisma,
+  Supabase: SiSupabase,
+  Sql: SiSqlite,
 };
 
 const technos = [
@@ -56,6 +65,10 @@ const technos = [
   { name: "Next.js", url: "https://nextjs.org/" },
   { name: "React Native", url: "https://reactnative.dev/" },
   { name: "Node.js", url: "https://nodejs.org/" },
+  { name: "NestJS", url: "https://nestjs.com/" },
+  { name: "Prisma", url: "https://www.prisma.io/" },
+  { name: "Supabase", url: "https://supabase.com/" },
+  { name: "SQL", url: "https://www.w3schools.com/sql/" },
   { name: "npm", url: "https://www.npmjs.com/" },
   { name: "Git", url: "https://git-scm.com/" },
   { name: "Framer Motion", url: "https://www.framer.com/motion/" },

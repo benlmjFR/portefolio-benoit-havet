@@ -35,7 +35,7 @@ The application features smooth animations, multilingual support, and an optimiz
 ## 🌍 Deployment
 
 The project is deployed on **Vercel** for development and testing:  
-👉 [https://portefolio-b-havet.vercel.app/fr](https://portefolio-b-havet.vercel.app/fr)
+👉 [https://portefolio-benoit-havet.vercel.app/fr](https://portefolio-benoit-havet.vercel.app/fr)
 
 ---
 

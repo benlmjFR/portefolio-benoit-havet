@@ -9,6 +9,11 @@ const cx = classNames.bind(styles);
 
 const skills = [
   {
+    tags: ["API", "Back-end", "Node.js", "NestJS", "Prisma", "SQL", "Supabase"],
+    backgroundColor: "#3B82F6",
+    dynamicColor: "#FFFFFF",
+  },  
+  {
     tags: ["SPA", "Mobile App", "PWA", "Performance", "Tracking", "Testing"],
     backgroundColor: "#00C9A7",
     dynamicColor: "#FFFFFF",
