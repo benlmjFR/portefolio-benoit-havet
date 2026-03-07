@@ -14,7 +14,7 @@
       "description1": "Développement d’API sécurisées et scalables avec Node.js, NestJS et TypeScript.",
       "description2": "Gestion des données et de la logique métier à l’aide de Prisma ORM et bases de données SQL, avec une attention particulière portée à la structure et à la maintenabilité.",
       "description3": "Intégration de solutions backend modernes comme Supabase, gestion de l’authentification, des performances et des bonnes pratiques serveur."
-    },    
+    },
     {
       "title": "Front-end & SPA",
       "description1": "Développement d’interfaces modernes et performantes avec Next.js, React et TypeScript.",
@@ -42,6 +42,6 @@
     "title": "On en parle?"
   },
   "Projects": {
-    "disclaimer": "*Les projets présentés ont été réalisés en équipe pour différents clients ou employeurs. J’y mentionne uniquement les tâches dont j’étais responsable (front-end, intégration, UI/UX) et je ne revendique pas la propriété des sites présentés."
+    "disclaimer": "*Certains projets présentés ont été réalisés en tant que salarié au sein de l'agence Razorfish (Groupe Publicis). Ces travaux sont exposés ici à titre strictement illustratif pour démontrer mes compétences techniques (Front-end, Intégration, UI/UX). Les droits de propriété intellectuelle, marques et logos appartiennent exclusivement aux clients respectifs et à l'agence. En aucun cas ce portfolio n'a de vocation commerciale ou ne revendique la propriété des sites présentés."
   }
 }

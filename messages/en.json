@@ -14,7 +14,7 @@
       "description1": "Design and development of robust and scalable APIs using Node.js, NestJS, and TypeScript.",
       "description2": "Implementation of structured back-end architectures (controllers, services, modules) and business logic management using Prisma ORM and SQL databases.",
       "description3": "Integration of modern backend services such as Supabase, access security, performance optimization, and server-side best practices."
-    },    
+    },
     {
       "title": "Front-end & SPA",
       "description1": "Building modern, high-performance interfaces with Next.js, React, and TypeScript.",
@@ -42,6 +42,6 @@
     "title": "Shall we talk?"
   },
   "Projects": {
-    "disclaimer": "*The projects presented were team efforts carried out for various clients or employers. I only mention the tasks I was personally responsible for (front-end, integration, UI/UX) and do not claim ownership of the showcased websites."
+    "disclaimer": "*The projects showcased here were developed as part of team efforts within Razorfish (Publicis Groupe) for various global clients. I am highlighting my specific contributions (Front-end, Integration, UI/UX) and do not claim ownership of the final products or intellectual property. All trademarks, logos, and brand assets remain the exclusive property of their respective owners and the agency. This portfolio is for technical demonstration purposes only."
   }
 }
