@@ -6,9 +6,19 @@
   },
   "Hero": {
     "title": "Benoît Havet",
-    "subtitle": "Software developer"
+    "subtitle": "Fullstack Engineer — AI-augmented builder"
+  },
+  "About": {
+    "title": "About me",
+    "description": "Fullstack engineer with several years of experience building web and mobile products, I now develop AI-powered applications as a co-founder — orchestrating LLM agents, Claude API, and MCP integrations to ship fast and well. I bridge technical depth with product vision: I know what to build, how to build it, and increasingly, how to delegate it to AI."
   },
   "Skills": [
+    {
+      "title": "AI Engineering",
+      "description1": "Integration of large language models (LLMs) into production applications using Claude API, OpenAI, and agent frameworks.",
+      "description2": "Design and orchestration of AI agents with tool use, MCP integrations, and RAG pipelines for real-world product use cases.",
+      "description3": "AI-augmented development workflows: using Claude Code and AI tools to ship faster, with a focus on architecture and product outcomes over raw implementation."
+    },
     {
       "title": "Back-end & API",
       "description1": "Design and development of robust and scalable APIs using Node.js, NestJS, and TypeScript.",

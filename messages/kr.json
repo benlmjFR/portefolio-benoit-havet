@@ -6,9 +6,19 @@
     },
     "Hero": {
         "title": "브누아 아베",
-        "subtitle": "웹사이트 및 애플리케이션 개발자"
+        "subtitle": "풀스택 엔지니어 — AI 기반 빌더"
+    },
+    "About": {
+        "title": "소개",
+        "description": "웹 및 모바일 제품 개발 경험을 갖춘 풀스택 엔지니어로, 현재는 공동 창업자로서 AI 기반 애플리케이션을 개발하고 있습니다. LLM 에이전트, Claude API, MCP 통합을 활용해 빠르고 효율적으로 제품을 출시합니다. 기술적 전문성과 제품 비전을 연결하는 역할을 합니다: 무엇을 만들지, 어떻게 만들지, 그리고 점점 더 AI에 위임하는 방법을 알고 있습니다."
     },
     "Skills": [
+        {
+            "title": "AI & 에이전트",
+            "description1": "Claude API, OpenAI 및 에이전트 프레임워크를 활용한 LLM의 프로덕션 애플리케이션 통합.",
+            "description2": "실제 제품 사용 사례를 위한 tool use, MCP 통합, RAG 파이프라인을 갖춘 AI 에이전트 설계 및 오케스트레이션.",
+            "description3": "Claude Code를 활용한 AI 기반 개발 워크플로우: 순수 구현보다 아키텍처와 제품 성과에 집중하여 더 빠르게 출시."
+        },
         {
             "title": "백엔드 & API",
             "description1": "Node.js, NestJS, TypeScript를 활용한 안정적이고 확장 가능한 API 설계 및 개발.",

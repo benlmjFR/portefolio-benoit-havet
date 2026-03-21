@@ -6,30 +6,40 @@
   },
   "Hero": {
     "title": "Benoît Havet",
-    "subtitle": "Développeur de sites web et applications"
+    "subtitle": "Fullstack Engineer — développeur augmenté par l'IA"
+  },
+  "About": {
+    "title": "À propos",
+    "description": "Développeur fullstack avec plusieurs années d'expérience sur des produits web et mobile, je construis aujourd'hui des applications propulsées par l'IA en tant que co-fondateur — en orchestrant des agents LLM, l'API Claude et des intégrations MCP pour livrer vite et bien. Je fais le pont entre expertise technique et vision produit : je sais quoi construire, comment le construire, et de plus en plus, comment le déléguer à l'IA."
   },
   "Skills": [
     {
+      "title": "IA & Agents",
+      "description1": "Intégration de modèles de langage (LLMs) dans des applications en production via l'API Claude, OpenAI et des frameworks d'agents.",
+      "description2": "Conception et orchestration d'agents IA avec tool use, intégrations MCP et pipelines RAG pour des cas d'usage produit concrets.",
+      "description3": "Workflows de développement augmentés par l'IA : utilisation de Claude Code pour livrer plus vite, avec une vision architecture et produit plutôt que pure implémentation."
+    },
+    {
       "title": "Back-end & API",
-      "description1": "Développement d’API sécurisées et scalables avec Node.js, NestJS et TypeScript.",
-      "description2": "Gestion des données et de la logique métier à l’aide de Prisma ORM et bases de données SQL, avec une attention particulière portée à la structure et à la maintenabilité.",
-      "description3": "Intégration de solutions backend modernes comme Supabase, gestion de l’authentification, des performances et des bonnes pratiques serveur."
+      "description1": "Développement d'API sécurisées et scalables avec Node.js, NestJS et TypeScript.",
+      "description2": "Gestion des données et de la logique métier à l'aide de Prisma ORM et bases de données SQL, avec une attention particulière portée à la structure et à la maintenabilité.",
+      "description3": "Intégration de solutions backend modernes comme Supabase, gestion de l'authentification, des performances et des bonnes pratiques serveur."
     },
     {
       "title": "Front-end & SPA",
-      "description1": "Développement d’interfaces modernes et performantes avec Next.js, React et TypeScript.",
-      "description2": "Création de Single Page Applications fluides, dynamiques et optimisées. Conception et développement de composants d’interface réutilisables, performants et faciles à maintenir",
+      "description1": "Développement d'interfaces modernes et performantes avec Next.js, React et TypeScript.",
+      "description2": "Création de Single Page Applications fluides, dynamiques et optimisées. Conception et développement de composants d'interface réutilisables, performants et faciles à maintenir.",
       "description3": "Intégration de tests, analytics et bonnes pratiques de performance."
     },
     {
       "title": "Design & Expérience",
       "description1": "Sensibilité UI/UX pour concevoir des interfaces intuitives et esthétiques.",
       "description2": "Collaboration étroite avec les designers pour transformer la vision en expérience utilisateur concrète.",
-      "description3": "Animations, micro-interactions et prototypage pour renforcer l’émotion et l’engagement."
+      "description3": "Animations, micro-interactions et prototypage pour renforcer l'émotion et l'engagement."
     },
     {
       "title": "Architecture & CMS",
-      "description1": "Mise en place d’architectures modernes basées sur des CMS headless (Storyblok, Contentful…).",
+      "description1": "Mise en place d'architectures modernes basées sur des CMS headless (Storyblok, Contentful…).",
       "description2": "Connexion fluide entre front-end et back-end via API, Node.js et intégrations sur mesure.",
       "description3": "Maintenance, scalabilité et automatisation du déploiement pour un produit durable."
     }
@@ -39,7 +49,7 @@
     "downLoadButton": "Télécharger le CV"
   },
   "Contacts": {
-    "title": "On en parle?"
+    "title": "On en parle ?"
   },
   "Projects": {
     "disclaimer": "*Certains projets présentés ont été réalisés en tant que salarié au sein de l'agence Razorfish (Groupe Publicis). Ces travaux sont exposés ici à titre strictement illustratif pour démontrer mes compétences techniques (Front-end, Intégration, UI/UX). Les droits de propriété intellectuelle, marques et logos appartiennent exclusivement aux clients respectifs et à l'agence. En aucun cas ce portfolio n'a de vocation commerciale ou ne revendique la propriété des sites présentés."
