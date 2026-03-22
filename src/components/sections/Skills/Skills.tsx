@@ -9,10 +9,24 @@ const cx = classNames.bind(styles);
 
 const skills = [
   {
+    tags: [
+      "AI & Agents",
+      "Claude API",
+      "RAG",
+      "Vector DB",
+      "MCP",
+      "Prompt Engineering",
+      "LLM",
+      "AI Agents",
+    ],
+    backgroundColor: "#c337ff",
+    dynamicColor: "#FFFFFF",
+  },
+  {
     tags: ["API", "Back-end", "Node.js", "NestJS", "Prisma", "SQL", "Supabase"],
     backgroundColor: "#3B82F6",
     dynamicColor: "#FFFFFF",
-  },  
+  },
   {
     tags: ["SPA", "Mobile App", "PWA", "Performance", "Tracking", "Testing"],
     backgroundColor: "#00C9A7",
@@ -29,19 +43,6 @@ const skills = [
     ],
     backgroundColor: "#B3B3B3",
     dynamicColor: "#000000",
-  },
-  {
-    tags: [
-      "Headless CMS",
-      "API Integration",
-      "Data management",
-      "Scalability",
-      "Automation",
-      "Continuous Deployment",
-      "Architecture",
-    ],
-    backgroundColor: "#FF6B6B",
-    dynamicColor: "#FFFFFF",
   },
 ];
 
