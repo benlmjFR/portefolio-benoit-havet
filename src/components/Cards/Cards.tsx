@@ -63,6 +63,14 @@ export const payload = {
       slug: "westfield",
       hoverLink: "https://www.westfield.com",
     },
+    {
+      imageUrlPortrait: "/doctors-list.png",
+      imageUrlLandscape: "/doctors-list.png",
+      mediaWidth: "40vw",
+      mediaheight: "50vh",
+      slug: "Doctor list fullstack",
+      hoverLink: "https://doctors-list-nu.vercel.app",
+    },
   ] as CardType[],
 };
 
