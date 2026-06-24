@@ -29,7 +29,7 @@ export const Contacts = () => {
         <span>LinkedIn</span>
       </a>
 
-      <a href="mailto:benlmj84@gmail.com" className={cx("contacts__item")}>
+      <a href="mailto:myungjae84@gmail.com" className={cx("contacts__item")}>
         <Mail size={18} />
         <span>Email</span>
       </a>

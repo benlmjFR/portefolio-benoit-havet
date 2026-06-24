@@ -8,7 +8,7 @@ type MailButtonProps = {
 
 const MailButton: FC<MailButtonProps> = ({ email, className }) => {
   return (
-    <a href={`mailto:${email}`} className={className}>
+    <a href={`mailto:${"myungjae84@gmail.com"}`} className={className}>
       E-MAIL
     </a>
   );

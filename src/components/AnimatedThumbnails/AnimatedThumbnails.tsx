@@ -35,10 +35,7 @@ export const AnimatedThumbnails: React.FC<AnimatedThumbnailsProps> = ({
       >
         {cards.map((card, index) => (
           <div key={index}>
-            <Cards
-              {...card}
-              key={index}
-            />
+            <Cards showDisclaimer={false} {...card} key={index} />
           </div>
         ))}
       </div>

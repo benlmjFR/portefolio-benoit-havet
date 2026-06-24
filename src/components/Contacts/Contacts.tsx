@@ -65,7 +65,7 @@ export const Contacts = () => {
       </div>
       <div ref={infoRef} className={cx("contact-info")}>
         <TypeWriter
-          text="E-Mail: benlmj84@gmail.com"
+          text="E-Mail: myungjae84@gmail.com"
           start={startAnimation}
         />
       </div>
