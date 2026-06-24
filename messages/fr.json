@@ -6,7 +6,11 @@
   },
   "Hero": {
     "title": "Benoît Havet",
-    "subtitle": "Fullstack Engineer — développeur augmenté par l'IA"
+    "subtitle": "Fullstack Engineer — développeur augmenté par l'IA",
+    "badge": "Disponible immédiatement",
+    "tagline": "React / Next.js / Mobile — mission courte ou longue durée",
+    "cta1": "Voir mes projets",
+    "cta2": "Me contacter"
   },
   "About": {
     "title": "À propos",
@@ -49,8 +53,21 @@
     "downLoadButton": "Télécharger le CV"
   },
   "Contacts": {
-    "title": "On en parle ?"
+    "title": "Un projet ? Un bug urgent ? Je réponds en moins de 24h.",
+    "email": "Email"
   },
+  "Cards": [
+    {
+      "description": "Site vitrine responsive + CMS headless intégré. Livré en 10 jours."
+    },
+    {
+      "description": "Campagne digitale interactive pour le lancement du nouveau modèle."
+    },
+    { "description": "Site web pour la mobilité urbaine électrique Nissan." },
+    {
+      "description": "Plateforme e-commerce internationale pour centres commerciaux."
+    }
+  ],
   "Projects": {
     "disclaimer": "*Certains projets présentés ont été réalisés en tant que salarié au sein de l'agence Razorfish (Groupe Publicis). Ces travaux sont exposés ici à titre strictement illustratif pour démontrer mes compétences techniques (Front-end, Intégration, UI/UX). Les droits de propriété intellectuelle, marques et logos appartiennent exclusivement aux clients respectifs et à l'agence. En aucun cas ce portfolio n'a de vocation commerciale ou ne revendique la propriété des sites présentés."
   }

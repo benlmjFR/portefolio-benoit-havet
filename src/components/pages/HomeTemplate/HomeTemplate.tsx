@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import { useTranslations } from "next-intl";
 import { Hero } from "../../sections/Hero/Hero";
 import { Head } from "../../layouts/Head/Head";
 import Skills from "../../sections/Skills/Skills";
@@ -11,6 +12,13 @@ import { payload } from "../../Cards/Cards";
 import Contacts from "../../Contacts/Contacts";
 
 const HomeTemplate = () => {
+  const t = useTranslations("Cards");
+
+  const translatedCards = payload.cards.map((card, i) => ({
+    ...card,
+    description: t(`${i}.description`),
+  }));
+
   return (
     <>
       <Head />
@@ -19,7 +27,7 @@ const HomeTemplate = () => {
         <CvOverlay />
         <TechBanner />
         <Skills />
-        <AnimatedThumbnails cards={payload?.cards}/>
+        <AnimatedThumbnails cards={translatedCards} />
         <Contacts />
       </main>
     </>

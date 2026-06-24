@@ -1,1 +1,1 @@
-self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/Users/benoithavet/portefolio-benoit-havet/src/app/[locale]/layout\":[\"static/media/3896790c345cf8ed-s.p.ttf\"]},\"appUsingSizeAdjust\":true,\"pagesUsingSizeAdjust\":false}"
+self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/Users/benoithavet/portefolio-benoit-havet/src/app/[locale]/layout\":[\"static/media/e4af272ccee01ff0-s.p.woff2\",\"static/media/3896790c345cf8ed-s.p.ttf\"]},\"appUsingSizeAdjust\":true,\"pagesUsingSizeAdjust\":false}"

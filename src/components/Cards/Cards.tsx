@@ -24,6 +24,9 @@ type CardType = {
   marginRight?: string;
   marginLeft?: string;
   slug: string;
+  title?: string;
+  description?: string;
+  stack?: string[];
   link?: string;
 };
 
@@ -39,7 +42,11 @@ export const payload = {
       imageUrlLandscape:
         "https://api.microlink.io/?url=https://www.saimeboulangerie.com&screenshot=true&meta=false&embed=screenshot.url",
       marginRight: "10vw",
-      slug: "saimeboulangerie",
+      slug: "Boulangerie Saime",
+      title: "Boulangerie Saime",
+      description:
+        "Site vitrine responsive + CMS headless intégré (optionnel).",
+      stack: ["Next.js", "Storyblok", "SCSS"],
       hoverLink: "https://www.saimeboulangerie.com",
     },
     {
@@ -50,7 +57,11 @@ export const payload = {
         "https://api.microlink.io/?url=https://micra.nissan.fr&screenshot=true&meta=false&embed=screenshot.url",
       mediaWidth: "40vw",
       mediaheight: "50vh",
-      slug: "Nissan micra",
+      slug: "Nissan Micra",
+      title: "Nissan Micra",
+      description:
+        "Campagne digitale interactive pour le lancement du nouveau modèle.",
+      stack: ["React", "TypeScript", "CSS Animations"],
       hoverLink: "https://micra.nissan.fr",
     },
     {
@@ -62,7 +73,10 @@ export const payload = {
         "https://api.microlink.io/?url=https://silence-mobility.nissan.fr&screenshot=true&meta=false&embed=screenshot.url",
       mediaheight: "35vh",
       mediaWidth: "35vw",
-      slug: "Nissan nano",
+      slug: "Nissan Nano",
+      title: "Nissan Nano",
+      description: "Site web pour la mobilité urbaine électrique Nissan.",
+      stack: ["React", "Next.js", "GSAP"],
       hoverLink: "https://silence-mobility.nissan.fr",
     },
     {
@@ -75,7 +89,11 @@ export const payload = {
       imageUrlLandscape:
         "https://api.microlink.io/?url=https://www.westfield.com&screenshot=true&meta=false&embed=screenshot.url",
       marginRight: "10vw",
-      slug: "westfield",
+      slug: "Westfield",
+      title: "Westfield",
+      description:
+        "Plateforme e-commerce internationale pour centres commerciaux.",
+      stack: ["React", "TypeScript", "Contentful"],
       hoverLink: "https://www.westfield.com",
     },
   ] as CardType[],
@@ -98,6 +116,9 @@ const Cards = ({
   marginLeft,
   hoverLink,
   slug,
+  title,
+  description,
+  stack,
 }: {
   showDisclaimer: boolean;
   imageUrlPortrait?: string;
@@ -113,6 +134,9 @@ const Cards = ({
   marginRight?: string;
   marginLeft?: string;
   slug: string;
+  title?: string;
+  description?: string;
+  stack?: string[];
   hoverLink?: string;
 }) => {
   const orientation = useOrientation();
@@ -228,7 +252,7 @@ const Cards = ({
       >
         <motion.img
           src={imageUrl}
-          alt="card image"
+          alt={title || slug}
           style={{
             width: "100%",
             height: "100%",
@@ -264,7 +288,19 @@ const Cards = ({
             "content--inline": displayInLine,
           })}
         >
-          {slug}
+          <h5>{title || slug}</h5>
+          {description && (
+            <p className={cx("content__description")}>{description}</p>
+          )}
+          {stack && stack.length > 0 && (
+            <div className={cx("content__stack")}>
+              {stack.map((tech, i) => (
+                <span key={i} className={cx("content__badge")}>
+                  {tech}
+                </span>
+              ))}
+            </div>
+          )}
         </div>
       )}
       {showDisclaimer && disclaimer && (

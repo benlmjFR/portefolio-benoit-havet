@@ -1,73 +1,67 @@
-import {
-  MotionStyle,
-  motion,
-  useInView,
-  useScroll,
-  useSpring,
-  useTransform,
-} from "framer-motion";
-import { useEffect, useRef, useState } from "react";
+"use client";
+
+import { motion, useInView } from "framer-motion";
+import { useRef } from "react";
 import classNames from "classnames/bind";
 import styles from "./Contacts.module.scss";
 import { useTranslations } from "next-intl";
-import { useAboveTablet } from "@/src/hooks/useMediaQuery";
-import MailButton from "../MailButton/MailButton";
-import TypeWriter from "../TypeWritter/TypeWritter";
+import { Mail, Linkedin, ExternalLink } from "lucide-react";
 
 const cx = classNames.bind(styles);
 
 export const Contacts = () => {
   const ref = useRef<HTMLDivElement | null>(null);
+  const isInView = useInView(ref, { once: true, amount: 0.25 });
   const t = useTranslations("Contacts");
 
-  const { scrollYProgress } = useScroll({
-    target: ref,
-    offset: ["start start", "end end"],
-  });
-
-  const isLaptop = useAboveTablet();
-
-  const x = useTransform(
-    scrollYProgress,
-    [0, 1],
-    [isLaptop ? "40%" : "45%", isLaptop ? "-40%" : "-45%"],
-  );
-
-  const rawY = useTransform(
-    scrollYProgress,
-    [0, 0.1, 0.35, 0.5, 0.65, 0.8, 1],
-    [-400, 0, -120, 0, -60, 0, 1000],
-  );
-
-  const y = useSpring(rawY, { stiffness: 220, damping: 16, mass: 0.6 });
-
-  const infoRef = useRef<HTMLDivElement | null>(null);
-  const isInView = useInView(infoRef);
-  const [startAnimation, setStartAnimation] = useState(false);
-
-  useEffect(() => {
-    setStartAnimation(isInView);
-  }, [isInView]);
-
   return (
-    <section>
-      <div ref={ref} className={cx("contacts")} id="contact">
-        <div className={cx("sticky")}>
-          <motion.h2 style={{ x }} className={cx("text")}>
-            {t("title")}
-          </motion.h2>
-          <motion.div
-            style={{ y, x: "50%", translateX: "-50%" } as MotionStyle}
-            className={cx("ball")}
-          />
-          <MailButton email="" className={cx("mail-button")} />
-        </div>
-      </div>
-      <div ref={infoRef} className={cx("contact-info")}>
-        <TypeWriter
-          text="E-Mail: myungjae84@gmail.com"
-          start={startAnimation}
-        />
+    <section className={cx("contact")} id="contact">
+      <div ref={ref} className={cx("contact__inner")}>
+        <motion.h2
+          className={cx("contact__title")}
+          initial={{ opacity: 0, y: 30 }}
+          animate={isInView ? { opacity: 1, y: 0 } : {}}
+          transition={{ duration: 0.7, ease: "easeOut", delay: 0.1 }}
+        >
+          {t("title")}
+        </motion.h2>
+
+        <motion.div
+          className={cx("contact__buttons")}
+          initial={{ opacity: 0, y: 20 }}
+          animate={isInView ? { opacity: 1, y: 0 } : {}}
+          transition={{ duration: 0.6, ease: "easeOut", delay: 0.35 }}
+        >
+          <a
+            href="mailto:myungjae84@gmail.com"
+            className={cx("contact__btn", "contact__btn--primary")}
+          >
+            <Mail size={18} />
+            {t("email")}
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/beno%C3%AEt-havet-708752154/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={cx("contact__btn")}
+          >
+            <Linkedin size={18} />
+            LinkedIn
+          </a>
+
+          <a
+            href="https://www.malt.fr/profile/benoitmyungjaehavet"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={cx("contact__btn")}
+          >
+            <ExternalLink size={18} />
+            Malt
+          </a>
+        </motion.div>
+
+        <div className={cx("contact__glow")} aria-hidden />
       </div>
     </section>
   );

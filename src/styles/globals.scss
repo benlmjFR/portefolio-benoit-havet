@@ -4,29 +4,62 @@
   margin: 0;
 }
 
+/* ═══ LIGHT MODE — Glass warm beige ═══════════════════ */
 :root {
-  // Default theme
-  --background: white;
-  --foreground: #1a1a1a;
-  --border: rgba(26, 26, 26, 0.2);
-  --nav-background: $white;
+  --background: #F0EAE0;
+  --foreground: #1A0E06;
+  --foreground-secondary: rgba(26, 14, 6, 0.62);
+  --border: rgba(26, 14, 6, 0.12);
+  --nav-background: rgba(240, 234, 224, 0.80);
+  --accent: #C8956A;
+  --primary-dark: #1A0E06;
+  --card-bg: rgba(255, 255, 255, 0.55);
+  --card-border: rgba(255, 255, 255, 0.75);
+  --pill-bg: rgba(200, 149, 106, 0.14);
+  --pill-border: rgba(200, 149, 106, 0.42);
+  --pill-text: #8B4A18;
 }
 
+/* ═══ DARK MODE — Glass UI dark ═══════════════════════ */
 .dark {
-  --background: #1a1a1a;
-  --foreground: white;
-  --border: rgba(255, 255, 255, 0.2);
-  --nav-background: #272727;
+  --background: #0A0806;
+  --foreground: #FFFFFF;
+  --foreground-secondary: rgba(255, 255, 255, 0.72);
+  --border: rgba(255, 255, 255, 0.09);
+  --nav-background: rgba(10, 8, 6, 0.62);
+  --accent: #C8956A;
+  --primary-dark: #0A0806;
+  --card-bg: rgba(255, 255, 255, 0.06);
+  --card-border: rgba(255, 255, 255, 0.10);
+  --pill-bg: rgba(200, 149, 106, 0.12);
+  --pill-border: rgba(200, 149, 106, 0.35);
+  --pill-text: #C8956A;
 }
 
+/* ═══ Fond global — appartement warm ══════════════════ */
+/* Light : overlay crème clair → image visible et aérée */
 body {
-  background-color: var(--background);
+  background-color: #F0EAE0;
+  background-image:
+    linear-gradient(rgba(240, 234, 224, 0.76), rgba(228, 218, 206, 0.72)),
+    url("https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1920&q=80&auto=format&fit=crop");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   color: var(--foreground);
-  transition:
-    background-color 0.3s ease,
-    color 0.3s ease;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: var(--font-inter), "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: 0.012em;
+  transition: color 0.3s ease;
 }
+
+/* Dark : overlay sombre profond */
+html.dark body {
+  background-color: #0A0806;
+  background-image:
+    linear-gradient(rgba(10, 8, 6, 0.72), rgba(18, 12, 4, 0.68)),
+    url("https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1920&q=80&auto=format&fit=crop");
+}
+
 
 a {
   color: inherit;

@@ -2,27 +2,45 @@
   position: relative;
   min-height: 100svh;
   display: flex;
-  justify-items: center;
   align-items: center;
   padding: clamp(2rem, 4vw, 4rem) 1rem;
   overflow: clip;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+  @media (max-width: 768px) {
+    background-attachment: scroll;
+    background-position: center center;
+  }
+
+  &__overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(10, 8, 6, 0.72);
+    z-index: 0;
+  }
 
   &__content {
+    position: relative;
+    z-index: 1;
     display: flex;
     flex-direction: column;
-    row-gap: 1rem;
+    row-gap: 1.25rem;
     max-width: 68rem;
     margin-inline: 5vw;
+
     @include laptop {
       margin-inline: 15vw;
     }
   }
 
   &__title {
-    font-size: clamp(1.4rem, 6vw, 8rem);
+    font-size: clamp(2rem, 6vw, 8rem);
     line-height: 1.05;
     letter-spacing: -0.02em;
     font-weight: 800;
+    color: #ffffff;
     will-change: transform, opacity, filter;
 
     span {
@@ -34,11 +52,63 @@
 
   &__subtitle {
     font-size: clamp(1.05rem, 2.2vw, 1.375rem);
-    opacity: 0.9;
+    color: rgba(255, 255, 255, 0.75);
 
     span {
       will-change: transform, opacity;
       backface-visibility: hidden;
+    }
+  }
+
+  &__tagline {
+    font-size: clamp(0.95rem, 1.8vw, 1.15rem);
+    color: #e0ad82;
+    font-weight: 600;
+    letter-spacing: 0.025em;
+  }
+
+  &__cta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 0.25rem;
+  }
+
+  &__cta-primary {
+    padding: 0.8rem 2rem;
+    background: $warm-accent;
+    color: #0a0806;
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: 0.01em;
+    transition:
+      transform 0.2s ease,
+      opacity 0.2s ease;
+
+    &:hover {
+      transform: translateY(-2px);
+      opacity: 0.88;
+    }
+  }
+
+  &__cta-secondary {
+    padding: 0.8rem 2rem;
+    background: rgba(255, 255, 255, 0.06);
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 1rem;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    transition:
+      background 0.2s ease,
+      border-color 0.2s ease;
+
+    &:hover {
+      background: rgba(200, 149, 106, 0.15);
+      border-color: rgba(200, 149, 106, 0.4);
     }
   }
 
@@ -51,5 +121,25 @@
   &__letter {
     display: inline-block;
     will-change: transform, opacity;
+  }
+}
+
+@keyframes pulse-badge {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.28);
+  }
+  50% {
+    box-shadow: 0 0 0 8px rgba(34, 197, 94, 0);
+  }
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.2;
   }
 }

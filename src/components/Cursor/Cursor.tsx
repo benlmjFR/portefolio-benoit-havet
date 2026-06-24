@@ -17,7 +17,7 @@ export const Cursor = ({ position }: CursorProps) => {
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <circle cx="24" cy="24" r="24" fill="#00C9A7" />
+        <circle cx="24" cy="24" r="24" fill="#C8A97E" />
         <path
           d="M24 16L30 24L24 32"
           stroke="white"

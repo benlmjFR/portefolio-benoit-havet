@@ -1,8 +1,15 @@
 .skills {
-  &_list {
-    display: flex;
-    flex-direction: column;
-    row-gap: 5rem;
+  &__list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
     width: 100%;
+    max-width: 72rem;
+    margin-inline: auto;
+
+    @media (min-width: 769px) {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 4rem;
+    }
   }
 }

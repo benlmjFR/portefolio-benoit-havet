@@ -6,7 +6,11 @@
   },
   "Hero": {
     "title": "Benoît Havet",
-    "subtitle": "Fullstack Engineer — AI-augmented builder"
+    "subtitle": "Fullstack Engineer — AI-augmented builder",
+    "badge": "Available immediately",
+    "tagline": "React / Next.js / Mobile — short or long-term contracts",
+    "cta1": "See my projects",
+    "cta2": "Contact me"
   },
   "About": {
     "title": "About me",
@@ -49,8 +53,15 @@
     "downLoadButton": "Download the resume"
   },
   "Contacts": {
-    "title": "Shall we talk?"
+    "title": "A project? A critical bug? I respond in under 24h.",
+    "email": "Email"
   },
+  "Cards": [
+    { "description": "Responsive showcase website with headless CMS integration. Delivered in 10 days." },
+    { "description": "Interactive digital campaign for the launch of the new model." },
+    { "description": "Website for Nissan's urban electric mobility." },
+    { "description": "International e-commerce platform for shopping centers." }
+  ],
   "Projects": {
     "disclaimer": "*The projects showcased here were developed as part of team efforts within Razorfish (Publicis Groupe) for various global clients. I am highlighting my specific contributions (Front-end, Integration, UI/UX) and do not claim ownership of the final products or intellectual property. All trademarks, logos, and brand assets remain the exclusive property of their respective owners and the agency. This portfolio is for technical demonstration purposes only."
   }

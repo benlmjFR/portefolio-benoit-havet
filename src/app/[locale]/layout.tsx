@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 
 import "../../styles/globals.scss";
 import { getMessages, setRequestLocale } from "next-intl/server";
-import { customFont } from "../fonts";
+import { customFont, inter } from "../fonts";
 import { routing } from "../../i18n/routing";
 import { ThemeProvider } from 'next-themes';
 import { Metadata } from "next";
@@ -101,13 +101,13 @@ export default async function LocaleLayout({
   return (
     <html
       lang={locale}
-      className={customFont.variable}
+      className={`${customFont.variable} ${inter.variable}`}
       suppressHydrationWarning
     >
       <body>
         <ThemeProvider
           attribute="class"
-          defaultTheme="system"
+          defaultTheme="dark"
           enableSystem
           disableTransitionOnChange
         >

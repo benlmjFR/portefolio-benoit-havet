@@ -3,26 +3,38 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  white-space: nowrap;
-  height: 2.5rem;
-  width: 2.5rem;
-  border-radius: 0.375rem;
-  border: 1px solid grey;
-  background-color: transparent;
+  height: 2.2rem;
+  width: 2.2rem;
+  border-radius: 9999px;
+  border: 1px solid var(--border);
+  background: var(--card-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   cursor: pointer;
+  transition:
+    background 0.22s ease,
+    border-color 0.22s ease,
+    transform 0.22s ease;
+
+  &:hover {
+    background: rgba(200, 149, 106, 0.18);
+    border-color: rgba(200, 149, 106, 0.45);
+    transform: scale(1.08);
+  }
 }
 
 .icon {
-  height: 1.2rem;
-  width: 1.2rem;
-  transition: all 0.2s ease;
+  height: 1.1rem;
+  width: 1.1rem;
+  color: $warm-accent;
+  transition: all 0.25s ease;
 }
 
 .sunIcon {
-  color: $black;
+  color: $warm-accent;
 }
 
 .moonIcon {
   position: absolute;
-  color: $white;
+  color: $warm-accent;
 }

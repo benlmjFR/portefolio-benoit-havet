@@ -19,17 +19,17 @@ const skills = [
       "LLM",
       "AI Agents",
     ],
-    backgroundColor: "#c337ff",
+    backgroundColor: "rgba(22, 14, 6, 0.50)",
     dynamicColor: "#FFFFFF",
   },
   {
     tags: ["API", "Back-end", "Node.js", "NestJS", "Prisma", "SQL", "Supabase"],
-    backgroundColor: "#3B82F6",
+    backgroundColor: "rgba(10, 8, 4, 0.58)",
     dynamicColor: "#FFFFFF",
   },
   {
     tags: ["SPA", "Mobile App", "PWA", "Performance", "Tracking", "Testing"],
-    backgroundColor: "#00C9A7",
+    backgroundColor: "rgba(20, 14, 4, 0.52)",
     dynamicColor: "#FFFFFF",
   },
   {
@@ -41,8 +41,8 @@ const skills = [
       "Prototyping",
       "Motion Design",
     ],
-    backgroundColor: "#B3B3B3",
-    dynamicColor: "#000000",
+    backgroundColor: "rgba(16, 10, 6, 0.55)",
+    dynamicColor: "#FFFFFF",
   },
 ];
 
@@ -82,7 +82,7 @@ const Skills = () => {
       }}
       id="skills"
     >
-      <ul>
+      <ul className={cx("skills__list")}>
         {skills.map((skill, i) => (
           <Skill
             key={i}
