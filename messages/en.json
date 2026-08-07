@@ -57,10 +57,14 @@
     "email": "Email"
   },
   "Cards": [
-    { "description": "Responsive showcase website with headless CMS integration. Delivered in 10 days." },
-    { "description": "Interactive digital campaign for the launch of the new model." },
+    {
+      "description": "Responsive showcase website with headless CMS integration. Delivered in 10 days."
+    },
+    {
+      "description": "Interactive digital campaign for the launch of the new model."
+    },
     { "description": "Website for Nissan's urban electric mobility." },
-    { "description": "International e-commerce platform for shopping centers." }
+    { "description": "Contemporary coffee shop showcase website." }
   ],
   "Projects": {
     "disclaimer": "*The projects showcased here were developed as part of team efforts within Razorfish (Publicis Groupe) for various global clients. I am highlighting my specific contributions (Front-end, Integration, UI/UX) and do not claim ownership of the final products or intellectual property. All trademarks, logos, and brand assets remain the exclusive property of their respective owners and the agency. This portfolio is for technical demonstration purposes only."

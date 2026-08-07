@@ -85,16 +85,25 @@ export const payload = {
       mediaWidth: "35vw",
       mediaheight: "35vh",
       imageUrlPortrait:
-        "https://api.microlink.io/?url=https://www.westfield.com&screenshot=true&meta=false&embed=screenshot.url",
+        "https://api.microlink.io/?url=" +
+        encodeURIComponent(
+          "https://argile-coffee-git-main-bens-projects-cb9828d1.vercel.app/en/story?x-vercel-protection-bypass=AVbZGfFv99TT8UNYrMwQPOwM0GnEhYi2&x-vercel-set-bypass-cookie=true",
+        ) +
+        "&screenshot=true&meta=false&embed=screenshot.url",
       imageUrlLandscape:
-        "https://api.microlink.io/?url=https://www.westfield.com&screenshot=true&meta=false&embed=screenshot.url",
+        "https://api.microlink.io/?url=" +
+        encodeURIComponent(
+          "https://argile-coffee-git-main-bens-projects-cb9828d1.vercel.app/en/story?x-vercel-protection-bypass=AVbZGfFv99TT8UNYrMwQPOwM0GnEhYi2&x-vercel-set-bypass-cookie=true",
+        ) +
+        "&screenshot=true&meta=false&embed=screenshot.url",
       marginRight: "10vw",
-      slug: "Westfield",
-      title: "Westfield",
+      slug: "argile-coffee",
+      title: "argile-coffee",
       description:
         "Plateforme e-commerce internationale pour centres commerciaux.",
       stack: ["React", "TypeScript", "Contentful"],
-      hoverLink: "https://www.westfield.com",
+      hoverLink:
+        "https://argile-coffee-git-main-bens-projects-cb9828d1.vercel.app/en/story?x-vercel-protection-bypass=AVbZGfFv99TT8UNYrMwQPOwM0GnEhYi2&x-vercel-set-bypass-cookie=true",
     },
   ] as CardType[],
 };
