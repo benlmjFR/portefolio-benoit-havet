@@ -8,7 +8,7 @@
     "title": "Benoît Havet",
     "subtitle": "Fullstack Engineer — développeur augmenté par l'IA",
     "badge": "Disponible immédiatement",
-    "tagline": "Développeur freelance React · Next.js · Node.js — Lille, Hauts-de-France & remote France",
+    "tagline": "Développeur freelance React · Next.js · Node.js — Paris (Île-de-France) – Hauts-de-France · Remote partout en France",
     "cta1": "Voir mes projets",
     "cta2": "Demander un devis",
     "studio": "Studio web HBLABSTUDIO"
@@ -32,14 +32,14 @@
     },
     {
       "title": "Front-end & SPA",
-      "description1": "Développement d'interfaces modernes et performantes avec Next.js, React et TypeScript.",
+      "description1": "Développement d'interfaces modernes et performantes avec Next.js, React et TypeScript, avec tests, analytics et bonnes pratiques de performance.",
       "description2": "Création de Single Page Applications fluides, dynamiques et optimisées. Conception et développement de composants d'interface réutilisables, performants et faciles à maintenir.",
-      "description3": "Intégration de tests, analytics et bonnes pratiques de performance."
+      "description3": "Sites livrés clés en main avec un espace de contribution simple pour les non-développeurs : textes, images et contenus modifiables en quelques clics, en toute autonomie."
     },
     {
       "title": "Design & Expérience",
-      "description1": "Sensibilité UI/UX pour concevoir des interfaces intuitives et esthétiques.",
-      "description2": "Collaboration étroite avec les designers pour transformer la vision en expérience utilisateur concrète.",
+      "description1": "Conception de maquettes avant développement, avec une approche de designer UI/UX senior doublée d'une vision de développeur : je pense l'interface et je la construis.",
+      "description2": "Design system calé dès le départ : tokens de couleurs, typographie et espacements, composants et règles responsive, pour un rendu fidèle et cohérent du design jusqu'au code.",
       "description3": "Animations, micro-interactions et prototypage pour renforcer l'émotion et l'engagement."
     },
     {
@@ -70,7 +70,7 @@
       "description": "Campagne digitale interactive pour le lancement du nouveau modèle."
     },
     {
-      "description": "Site web pour la mobilité urbaine électrique Nissan."
+      "description": "Site vitrine pour un prothésiste dentaire, production 100 % française. Performance, référencement et design grandement améliorés, du design à la mise en ligne : front Next.js et CMS headless Storyblok."
     },
     {
       "description": "Site vitrine de café contemporain."
@@ -80,20 +80,30 @@
     "disclaimer": "*Certains projets présentés ont été réalisés en tant que salarié au sein de l'agence Razorfish (Groupe Publicis). Ces travaux sont exposés ici à titre strictement illustratif pour démontrer mes compétences techniques (Front-end, Intégration, UI/UX). Les droits de propriété intellectuelle, marques et logos appartiennent exclusivement aux clients respectifs et à l'agence. En aucun cas ce portfolio n'a de vocation commerciale ou ne revendique la propriété des sites présentés."
   },
   "Metadata": {
-    "title": "Développeur freelance React / Next.js à Lille – HBLABSTUDIO",
-    "description": "Benoît Havet (HBLABSTUDIO), développeur fullstack freelance React, Next.js, Node.js & SQL. Création, refonte de sites et CMS headless. Hauts-de-France & France.",
+    "title": "Développeur freelance React / Next.js – Lille & remote France – HBLABSTUDIO",
+    "description": "Benoît Havet (HBLABSTUDIO), développeur fullstack freelance React, Next.js, Node.js. Sites, refontes, CMS headless. Lille, Hauts-de-France et remote : Paris, Lyon, Bordeaux, Nantes…",
     "ogAlt": "HBLABSTUDIO — Benoît Havet, développeur fullstack freelance"
   },
   "Footer": {
+    "legal": "Mentions légales",
     "services": "Services",
     "baseline": "Studio de développement web de Benoît Havet. Création et refonte de sites, CMS headless, React, Next.js, Node.js et IA.",
-    "area": "Lille · Hauts-de-France · Remote partout en France",
+    "area": "Lille · Hauts-de-France · Paris en présentiel · Remote, hybride ou sur site partout en France (Lyon, Bordeaux, Nantes, Toulouse…)",
     "back": "Retour à l’accueil",
     "stack": "Technologies",
     "deliverables": "Ce que je livre",
     "audience": "Pour qui ?",
     "faq": "Questions fréquentes",
     "ctaTitle": "Parlons de votre projet",
-    "ctaText": "Décrivez votre besoin, je vous envoie un devis détaillé gratuit sous 24h."
+    "ctaText": "Décrivez votre besoin, je vous envoie un devis détaillé gratuit sous 24h.",
+    "servicesIntro": "J'accompagne startups, PME et grands comptes de l'idée à la mise en production : brainstorming, conception, développement front et back, jusqu'à la delivery. 7 ans d'expérience : 3 ans en startup, où j'ai créé le front de produits from scratch, et 4 ans en agence (Razorfish – Publicis) comme consultant et lead de projets. Entrepreneur, je pilote les projets de A à Z.",
+    "serviceLinks": {
+      "developpeur-freelance-react-nextjs-lille": "Développeur freelance React & Next.js à Lille",
+      "refonte-site-web-cms-headless": "Refonte de site web & CMS headless (Storyblok, Contentful)",
+      "creation-site-internet-pme-hauts-de-france": "Création de site internet pour PME — Hauts-de-France",
+      "developpeur-nodejs-sql-freelance": "Développeur Node.js, NestJS & SQL freelance — API",
+      "integration-ia-agents-llm-entreprise": "Intégration IA & agents LLM pour entreprises",
+      "mission-freelance-developpeur-fullstack": "Développeur fullstack React / Node.js — mission freelance"
+    }
   }
 }

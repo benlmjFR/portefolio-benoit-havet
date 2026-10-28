@@ -19,7 +19,7 @@ export const services: Service[] = [
       "Développeur freelance React / Next.js à Lille et dans les Hauts-de-France. Sites rapides, SEO-friendly et applications web sur mesure. Devis gratuit sous 24h.",
     h1: "Développeur freelance React & Next.js à Lille et dans les Hauts-de-France",
     intro:
-      "Je conçois des sites et applications web avec React et Next.js : rapides, bien référencés et faciles à faire évoluer. J'interviens à Lille, dans toute la région Hauts-de-France (Arras, Lens, Valenciennes, Amiens, Dunkerque…) et en remote partout en France.",
+      "Je conçois des sites et applications web avec React et Next.js : rapides, bien référencés et faciles à faire évoluer. J'interviens à Lille, dans toute la région Hauts-de-France (Arras, Lens, Valenciennes, Amiens, Dunkerque…) et en remote partout en France (Paris, Lyon, Bordeaux, Nantes, Toulouse…). Habitué au travail à distance en autonomie, y compris avec des équipes internationales.",
     audience:
       "PME, startups, agences web en renfort et grands comptes qui cherchent un développeur front-end / fullstack autonome, disponible rapidement.",
     deliverables: [
@@ -32,7 +32,7 @@ export const services: Service[] = [
     faq: [
       {
         q: "Travaillez-vous sur site à Lille ou uniquement en remote ?",
-        a: "Les deux : présentiel possible à Lille et dans les Hauts-de-France, remote pour le reste de la France.",
+        a: "Les deux : présentiel à Lille, dans les Hauts-de-France et à Paris, et en remote, hybride ou sur site dans les autres villes de France (Lyon, Bordeaux, Nantes, Toulouse…). Je travaille en remote depuis longtemps, en autonomie et en collaboration avec des équipes étrangères.",
       },
       {
         q: "Quel est le délai pour démarrer une mission ?",
@@ -150,7 +150,7 @@ export const services: Service[] = [
       "Recruteurs, ESN, chasseurs de têtes : développeur fullstack React, Next.js, Node.js, SQL et IA disponible pour missions freelance. CV, TJM et disponibilités sur demande.",
     h1: "Développeur fullstack React / Next.js / Node.js disponible en mission freelance",
     intro:
-      "Recruteurs, ESN et chasseurs de têtes : je suis disponible pour des missions freelance fullstack, en remote ou sur site (Lille / Hauts-de-France, Paris ponctuellement). Expérience en agence (Razorfish – Publicis) sur des projets grands comptes comme Nissan.",
+      "Recruteurs, ESN et chasseurs de têtes : je suis disponible pour des missions freelance fullstack, en remote, en hybride ou sur site (Lille / Hauts-de-France, Paris en présentiel, et partout en France selon la mission). Habitué au remote en autonomie et à la collaboration avec des équipes internationales. Expérience en agence (Razorfish – Publicis) sur des projets grands comptes comme Nissan.",
     audience: "Cabinets de recrutement, ESN, grands comptes et scale-ups.",
     deliverables: [
       "Front-end React / Next.js / TypeScript, design systems",

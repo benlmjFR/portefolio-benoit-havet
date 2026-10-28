@@ -8,6 +8,17 @@ export const BRAND = "HBLABSTUDIO";
 export const PERSON = "Benoît Havet";
 export const EMAIL = "myungjae84@gmail.com";
 
+export const LEGAL = {
+  legalName: "Benoît Havet",
+  status: "Entrepreneur individuel (micro-entreprise)",
+  siren: "533 370 557",
+  siret: "533 370 557 00068",
+  vat: "FR71533370557",
+  registry: "Inscrit au Registre national des entreprises (RNE), non inscrit au RCS",
+  address: "Lille, Hauts-de-France, France",
+  host: "Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, États-Unis — vercel.com",
+};
+
 export const SOCIALS = {
   instagram: "https://www.instagram.com/hblabstudio/",
   linkedin: "https://www.linkedin.com/in/beno%C3%AEt-havet-708752154/",
@@ -31,6 +42,17 @@ export const AREA_SERVED = {
     "Amiens",
     "Beauvais",
     "Compiègne",
+    // Remote, major French cities
+    "Paris",
+    "Lyon",
+    "Marseille",
+    "Toulouse",
+    "Bordeaux",
+    "Nantes",
+    "Strasbourg",
+    "Montpellier",
+    "Rennes",
+    "Nice",
   ],
   country: "France",
 };

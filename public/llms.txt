@@ -1,6 +1,6 @@
 # HBLABSTUDIO — Benoît Havet
 
-> Studio de développement web de Benoît Havet, développeur fullstack freelance (React, Next.js, Node.js, SQL, IA). Basé dans les Hauts-de-France (Lille), intervient partout en France en remote.
+> Studio de développement web de Benoît Havet, développeur fullstack freelance (React, Next.js, Node.js, SQL, IA). Basé dans les Hauts-de-France (Lille), intervient en présentiel à Lille, dans les Hauts-de-France et à Paris, et en remote, hybride ou sur site partout en France (Lyon, Bordeaux, Nantes, Toulouse…). Habitué au travail à distance en autonomie et à la collaboration avec des équipes internationales. Livre des sites clés en main avec une interface de contribution simple pour les non-développeurs (CMS headless).
 
 ## Services
 - [Développeur freelance React & Next.js à Lille](https://portefolio-benoit-havet.vercel.app/fr/developpeur-freelance-react-nextjs-lille)

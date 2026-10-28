@@ -54,6 +54,10 @@
     font-size: 0.8rem;
   }
 
+  &__intro {
+    margin-bottom: 1rem;
+  }
+
   &__links {
     list-style: none;
     display: flex;
@@ -68,7 +72,19 @@
   &__copy {
     max-width: 72rem;
     margin: 3rem auto 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0.5rem 1.5rem;
     font-size: 0.75rem;
     opacity: 0.7;
+
+    a {
+      text-decoration: underline;
+
+      &:hover {
+        color: $warm-accent;
+      }
+    }
   }
 }

@@ -4,7 +4,7 @@ import { Instagram, Linkedin, Mail } from "lucide-react";
 import styles from "./Footer.module.scss";
 import { Link } from "../../../i18n/navigation";
 import { services } from "../../../data/services";
-import { BRAND, EMAIL, PERSON, SOCIALS } from "../../../lib/site";
+import { BRAND, EMAIL, LEGAL, PERSON, SOCIALS } from "../../../lib/site";
 
 const cx = classNames.bind(styles);
 
@@ -33,20 +33,26 @@ export const Footer = () => {
 
         <nav aria-label={t("services")}>
           <p className={cx("footer__heading")}>{t("services")}</p>
+          <p className={cx("footer__intro")}>{t("servicesIntro")}</p>
           <ul className={cx("footer__links")}>
             {services.map((s) => (
               <li key={s.slug}>
                 <Link href={`/${s.slug}`} locale="fr">
-                  {s.metaTitle}
+                  {t(`serviceLinks.${s.slug}`)}
                 </Link>
               </li>
             ))}
           </ul>
         </nav>
       </div>
-      <p className={cx("footer__copy")}>
-        © {new Date().getFullYear()} {BRAND} — {PERSON}
-      </p>
+      <div className={cx("footer__copy")}>
+        <p>
+          © {new Date().getFullYear()} {BRAND} — {PERSON}, EI · SIRET {LEGAL.siret} · TVA {LEGAL.vat}
+        </p>
+        <Link href="/mentions-legales" locale="fr">
+          {t("legal")}
+        </Link>
+      </div>
     </footer>
   );
 };

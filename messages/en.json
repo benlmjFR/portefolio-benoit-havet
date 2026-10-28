@@ -8,7 +8,7 @@
     "title": "Benoît Havet",
     "subtitle": "Fullstack Engineer — AI-augmented builder",
     "badge": "Available immediately",
-    "tagline": "Freelance React · Next.js · Node.js developer — Lille, France & remote",
+    "tagline": "Freelance React · Next.js · Node.js developer — Paris (Île-de-France) – Hauts-de-France · Remote across France",
     "cta1": "See my projects",
     "cta2": "Request a quote",
     "studio": "HBLABSTUDIO web studio"
@@ -32,14 +32,14 @@
     },
     {
       "title": "Front-end & SPA",
-      "description1": "Building modern, high-performance interfaces with Next.js, React, and TypeScript.",
+      "description1": "Building modern, high-performance interfaces with Next.js, React, and TypeScript, backed by testing, analytics, and performance best practices.",
       "description2": "Crafting smooth and dynamic Single Page Applications with attention to detail. Designing and developing reusable, scalable UI components with clean and maintainable code.",
-      "description3": "Implementing testing, analytics, and performance best practices for scalable products."
+      "description3": "Turnkey websites with a friendly editing interface for non-developers: text, images and content updated in a few clicks, fully autonomously."
     },
     {
       "title": "Design & Experience",
-      "description1": "A strong sense of design and UX to create intuitive and elegant user interfaces.",
-      "description2": "Turning ideas and mockups into engaging, functional digital experiences.",
+      "description1": "Mockups designed before development, with a senior UI/UX designer's approach and a developer's mindset: I design the interface and I build it.",
+      "description2": "A design system set up from day one: color, typography and spacing tokens, components and responsive rules, for a faithful, consistent result from design to code.",
       "description3": "Bringing interfaces to life through animations, micro-interactions, and thoughtful motion."
     },
     {
@@ -70,7 +70,7 @@
       "description": "Interactive digital campaign for the launch of the new model."
     },
     {
-      "description": "Website for Nissan's urban electric mobility."
+      "description": "Showcase website for a dental prosthetics lab, 100% made in France. Major gains in performance, SEO visibility and design, from design to delivery: Next.js front end with Storyblok headless CMS."
     },
     {
       "description": "Contemporary coffee shop showcase website."
@@ -81,19 +81,29 @@
   },
   "Metadata": {
     "title": "Freelance React / Next.js Developer in France – HBLABSTUDIO",
-    "description": "Benoît Havet (HBLABSTUDIO), freelance fullstack developer: React, Next.js, Node.js & SQL. Websites, redesigns and headless CMS. Based in Lille, France.",
+    "description": "Benoît Havet (HBLABSTUDIO), freelance fullstack developer: React, Next.js, Node.js & SQL. Websites, redesigns and headless CMS. Based in Lille, working remotely across France with international teams.",
     "ogAlt": "HBLABSTUDIO — Benoît Havet, freelance fullstack developer"
   },
   "Footer": {
+    "legal": "Legal notice (FR)",
     "services": "Services (FR)",
     "baseline": "Web development studio by Benoît Havet. Websites, redesigns, headless CMS, React, Next.js, Node.js and AI.",
-    "area": "Lille · Hauts-de-France · Remote across France",
+    "area": "Lille · Hauts-de-France · On-site in Paris · Remote, hybrid or on-site across France (Lyon, Bordeaux, Nantes, Toulouse…)",
     "back": "Back to home",
     "stack": "Stack",
     "deliverables": "Deliverables",
     "audience": "Who is it for?",
     "faq": "FAQ",
     "ctaTitle": "Let’s talk about your project",
-    "ctaText": "Describe your needs, I will send you a free detailed quote within 24h."
+    "ctaText": "Describe your needs, I will send you a free detailed quote within 24h.",
+    "servicesIntro": "I help startups, SMBs and large companies go from idea to production: brainstorming, design, front-end and back-end development, all the way to delivery. 7 years of experience: 3 years in startups, building product front ends from scratch, and 4 years in agency (Razorfish – Publicis) as a consultant and project lead. As an entrepreneur, I run projects from A to Z.",
+    "serviceLinks": {
+      "developpeur-freelance-react-nextjs-lille": "Freelance React & Next.js Developer in Lille",
+      "refonte-site-web-cms-headless": "Website Redesign & Headless CMS (Storyblok, Contentful)",
+      "creation-site-internet-pme-hauts-de-france": "Website Creation for SMBs — Hauts-de-France",
+      "developpeur-nodejs-sql-freelance": "Freelance Node.js, NestJS & SQL Developer — APIs",
+      "integration-ia-agents-llm-entreprise": "AI Integration & LLM Agents for Businesses",
+      "mission-freelance-developpeur-fullstack": "Fullstack React / Node.js Developer — Freelance Contracts"
+    }
   }
 }

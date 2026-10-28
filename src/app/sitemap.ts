@@ -24,5 +24,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.9,
   }));
 
-  return [...home, ...landings];
+  const legal = {
+    url: `${SITE_URL}/fr/mentions-legales`,
+    lastModified,
+    changeFrequency: "yearly" as const,
+    priority: 0.2,
+  };
+
+  return [...home, ...landings, legal];
 }

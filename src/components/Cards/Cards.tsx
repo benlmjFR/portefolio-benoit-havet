@@ -65,19 +65,20 @@ export const payload = {
       hoverLink: "https://micra.nissan.fr",
     },
     {
-      showDisclaimer: true,
+      showDisclaimer: false,
       marginTop: "15vw",
       imageUrlPortrait:
-        "https://api.microlink.io/?url=https://silence-mobility.nissan.fr&screenshot=true&meta=false&embed=screenshot.url",
+        "https://api.microlink.io/?url=https://technident2-0.vercel.app&screenshot=true&meta=false&embed=screenshot.url",
       imageUrlLandscape:
-        "https://api.microlink.io/?url=https://silence-mobility.nissan.fr&screenshot=true&meta=false&embed=screenshot.url",
+        "https://api.microlink.io/?url=https://technident2-0.vercel.app&screenshot=true&meta=false&embed=screenshot.url",
       mediaheight: "35vh",
       mediaWidth: "35vw",
-      slug: "Nissan Nano",
-      title: "Nissan Nano",
-      description: "Site web pour la mobilité urbaine électrique Nissan.",
-      stack: ["React", "Next.js", "GSAP"],
-      hoverLink: "https://silence-mobility.nissan.fr",
+      slug: "Technident",
+      title: "Technident",
+      description:
+        "Site vitrine pour un prothésiste dentaire, production 100 % française.",
+      stack: ["Next.js", "Storyblok", "SEO"],
+      hoverLink: "https://technident2-0.vercel.app",
     },
     {
       showDisclaimer: true,
