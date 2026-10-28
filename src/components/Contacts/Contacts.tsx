@@ -5,7 +5,8 @@ import { useRef } from "react";
 import classNames from "classnames/bind";
 import styles from "./Contacts.module.scss";
 import { useTranslations } from "next-intl";
-import { Mail, Linkedin, ExternalLink } from "lucide-react";
+import { Mail, Linkedin, ExternalLink, Instagram, FileText } from "lucide-react";
+import { EMAIL, SOCIALS, quoteMailto } from "../../lib/site";
 
 const cx = classNames.bind(styles);
 
@@ -26,6 +27,8 @@ export const Contacts = () => {
           {t("title")}
         </motion.h2>
 
+        <p className={cx("contact__subtitle")}>{t("subtitle")}</p>
+
         <motion.div
           className={cx("contact__buttons")}
           initial={{ opacity: 0, y: 20 }}
@@ -33,15 +36,20 @@ export const Contacts = () => {
           transition={{ duration: 0.6, ease: "easeOut", delay: 0.35 }}
         >
           <a
-            href="mailto:myungjae84@gmail.com"
+            href={quoteMailto(t("quoteSubject"), t("quoteBody"))}
             className={cx("contact__btn", "contact__btn--primary")}
           >
+            <FileText size={18} />
+            {t("quote")}
+          </a>
+
+          <a href={`mailto:${EMAIL}`} className={cx("contact__btn")}>
             <Mail size={18} />
             {t("email")}
           </a>
 
           <a
-            href="https://www.linkedin.com/in/beno%C3%AEt-havet-708752154/"
+            href={SOCIALS.linkedin}
             target="_blank"
             rel="noopener noreferrer"
             className={cx("contact__btn")}
@@ -51,7 +59,17 @@ export const Contacts = () => {
           </a>
 
           <a
-            href="https://www.malt.fr/profile/benoitmyungjaehavet"
+            href={SOCIALS.instagram}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={cx("contact__btn")}
+          >
+            <Instagram size={18} />
+            @hblabstudio
+          </a>
+
+          <a
+            href={SOCIALS.malt}
             target="_blank"
             rel="noopener noreferrer"
             className={cx("contact__btn")}
@@ -60,6 +78,8 @@ export const Contacts = () => {
             Malt
           </a>
         </motion.div>
+
+        <p className={cx("contact__studio")}>{t("studio")}</p>
 
         <div className={cx("contact__glow")} aria-hidden />
       </div>

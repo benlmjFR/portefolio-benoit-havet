@@ -1,0 +1,17 @@
+# HBLABSTUDIO — Benoît Havet
+
+> Studio de développement web de Benoît Havet, développeur fullstack freelance (React, Next.js, Node.js, SQL, IA). Basé dans les Hauts-de-France (Lille), intervient partout en France en remote.
+
+## Services
+- [Développeur freelance React & Next.js à Lille](https://portefolio-benoit-havet.vercel.app/fr/developpeur-freelance-react-nextjs-lille)
+- [Refonte de site web & CMS headless (Storyblok, Contentful)](https://portefolio-benoit-havet.vercel.app/fr/refonte-site-web-cms-headless)
+- [Création de site internet pour PME — Hauts-de-France](https://portefolio-benoit-havet.vercel.app/fr/creation-site-internet-pme-hauts-de-france)
+- [Développeur Node.js, NestJS & SQL freelance](https://portefolio-benoit-havet.vercel.app/fr/developpeur-nodejs-sql-freelance)
+- [Intégration IA & agents LLM](https://portefolio-benoit-havet.vercel.app/fr/integration-ia-agents-llm-entreprise)
+- [Missions freelance fullstack (recruteurs, ESN)](https://portefolio-benoit-havet.vercel.app/fr/mission-freelance-developpeur-fullstack)
+
+## Contact
+- Email : myungjae84@gmail.com (devis gratuit, réponse sous 24h)
+- LinkedIn : https://www.linkedin.com/in/beno%C3%AEt-havet-708752154/
+- Instagram : https://www.instagram.com/hblabstudio/
+- Malt : https://www.malt.fr/profile/benoitmyungjaehavet

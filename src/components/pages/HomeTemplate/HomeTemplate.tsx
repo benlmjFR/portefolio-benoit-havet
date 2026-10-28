@@ -10,6 +10,7 @@ import CvOverlay from "../../CVOverlay/CvOverlay";
 import { AnimatedThumbnails } from "../../AnimatedThumbnails/AnimatedThumbnails";
 import { payload } from "../../Cards/Cards";
 import Contacts from "../../Contacts/Contacts";
+import { Footer } from "../../layouts/Footer/Footer";
 
 const HomeTemplate = () => {
   const t = useTranslations("Cards");
@@ -30,6 +31,7 @@ const HomeTemplate = () => {
         <AnimatedThumbnails cards={translatedCards} />
         <Contacts />
       </main>
+      <Footer />
     </>
   );
 };

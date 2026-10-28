@@ -7,7 +7,7 @@ import styles from "./Nav.module.scss";
 import { LocaleSwitcher } from "../LocaleSwitcher/LocaleSwitcher";
 import { ThemeToggle } from "../ThemeToggle/ThemeToggle";
 import { useTheme } from "next-themes";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { AnimatePresence, motion } from "framer-motion";
 import { useBelowLaptop } from "../../../hooks/useMediaQuery";
 import { Link } from "../../../i18n/navigation";
@@ -20,6 +20,7 @@ export const Nav = () => {
   const isMobile = useBelowLaptop();
   const { theme } = useTheme();
   const t = useTranslations("Navbar");
+  const locale = useLocale();
   const [overlay, setOverlay] = useState<{
     show: boolean;
     label: string;
@@ -57,6 +58,7 @@ export const Nav = () => {
         const id = href.replace("/#", "");
         const target = document.getElementById(id);
         if (target) target.scrollIntoView({ behavior: "auto" });
+        else window.location.href = `/${locale}${href}`;
       } else {
         window.location.href = href;
       }

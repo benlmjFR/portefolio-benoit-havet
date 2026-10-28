@@ -63,10 +63,12 @@ export const Hero = () => {
           whileInView="show"
           viewport={{ once: true, amount: 0.6 }}
           className={cx("hero__title")}
+          aria-label={titleText}
         >
           {Array.from(titleText).map((char, i) => (
             <motion.span
               key={`${char}-${i}`}
+              aria-hidden
               className={cx("hero__letterWrap")}
               variants={letterWrap}
             >
@@ -117,6 +119,8 @@ export const Hero = () => {
         >
           {t("tagline")}
         </motion.p>
+
+        <p className={cx("hero__studio")}>{t("studio")}</p>
 
         <motion.div
           className={cx("hero__cta")}

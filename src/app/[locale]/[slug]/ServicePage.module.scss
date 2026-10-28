@@ -1,0 +1,128 @@
+.service {
+  max-width: 52rem;
+  margin-inline: auto;
+  padding: 8rem 1.5rem 5rem;
+  color: var(--foreground);
+  line-height: 1.7;
+
+  &__breadcrumb {
+    font-size: 0.8rem;
+    color: var(--foreground-secondary);
+    margin-bottom: 2rem;
+
+    a:hover {
+      color: $warm-accent;
+    }
+  }
+
+  &__title {
+    font-size: clamp(1.8rem, 4.5vw, 3rem);
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    margin-bottom: 1.5rem;
+  }
+
+  &__intro {
+    font-size: 1.1rem;
+    color: var(--foreground-secondary);
+    margin-bottom: 2rem;
+  }
+
+  &__block {
+    margin-top: 2.5rem;
+    padding: 2rem;
+    border-radius: 16px;
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+
+    h2 {
+      font-size: 1.25rem;
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      padding-left: 1.2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.4rem;
+    }
+
+    a:hover {
+      color: $warm-accent;
+    }
+
+    &--cta {
+      text-align: center;
+      border-color: var(--pill-border);
+    }
+  }
+
+  &__pills {
+    list-style: none;
+    padding-left: 0 !important;
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    gap: 0.5rem !important;
+
+    li {
+      padding: 0.3rem 0.9rem;
+      border-radius: 999px;
+      background: var(--pill-bg);
+      border: 1px solid var(--pill-border);
+      color: var(--pill-text);
+      font-size: 0.85rem;
+    }
+  }
+
+  &__faq {
+    padding: 0.75rem 0;
+    border-bottom: 1px solid var(--border);
+
+    summary {
+      cursor: pointer;
+      font-weight: 600;
+    }
+
+    p {
+      margin-top: 0.5rem;
+      color: var(--foreground-secondary);
+    }
+  }
+
+  &__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 1.5rem;
+  }
+
+  &__cta,
+  &__ghost {
+    display: inline-flex;
+    padding: 0.85rem 2rem;
+    border-radius: 12px;
+    font-weight: 700;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+
+    &:hover {
+      transform: translateY(-2px);
+    }
+  }
+
+  &__cta {
+    background: $warm-accent;
+    color: #0a0806;
+
+    &:hover {
+      opacity: 0.88;
+    }
+  }
+
+  &__ghost {
+    border: 1px solid var(--card-border);
+    background: var(--card-bg);
+  }
+}

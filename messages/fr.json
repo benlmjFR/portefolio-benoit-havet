@@ -8,9 +8,10 @@
     "title": "Benoît Havet",
     "subtitle": "Fullstack Engineer — développeur augmenté par l'IA",
     "badge": "Disponible immédiatement",
-    "tagline": "React / Next.js / Mobile — mission courte ou longue durée",
+    "tagline": "Développeur freelance React · Next.js · Node.js — Lille, Hauts-de-France & remote France",
     "cta1": "Voir mes projets",
-    "cta2": "Me contacter"
+    "cta2": "Demander un devis",
+    "studio": "Studio web HBLABSTUDIO"
   },
   "About": {
     "title": "À propos",
@@ -53,8 +54,13 @@
     "downLoadButton": "Télécharger le CV"
   },
   "Contacts": {
-    "title": "Un projet ? Un bug urgent ? Je réponds en moins de 24h.",
-    "email": "Email"
+    "title": "Un projet de site, une refonte, une mission ? Je réponds en moins de 24h.",
+    "email": "Email",
+    "subtitle": "Devis gratuit et sans engagement pour PME, grands comptes et recruteurs.",
+    "quote": "Demander un devis",
+    "quoteSubject": "Demande de devis — HBLABSTUDIO",
+    "quoteBody": "Bonjour Benoît,\n\nEntreprise :\nType de projet (site, refonte CMS headless, mission freelance…) :\nBudget estimé :\nDélai souhaité :\nVille :\n\nMerci !",
+    "studio": "HBLABSTUDIO — studio de développement web"
   },
   "Cards": [
     {
@@ -63,12 +69,31 @@
     {
       "description": "Campagne digitale interactive pour le lancement du nouveau modèle."
     },
-    { "description": "Site web pour la mobilité urbaine électrique Nissan." },
+    {
+      "description": "Site web pour la mobilité urbaine électrique Nissan."
+    },
     {
       "description": "Site vitrine de café contemporain."
     }
   ],
   "Projects": {
     "disclaimer": "*Certains projets présentés ont été réalisés en tant que salarié au sein de l'agence Razorfish (Groupe Publicis). Ces travaux sont exposés ici à titre strictement illustratif pour démontrer mes compétences techniques (Front-end, Intégration, UI/UX). Les droits de propriété intellectuelle, marques et logos appartiennent exclusivement aux clients respectifs et à l'agence. En aucun cas ce portfolio n'a de vocation commerciale ou ne revendique la propriété des sites présentés."
+  },
+  "Metadata": {
+    "title": "Développeur freelance React / Next.js à Lille – HBLABSTUDIO",
+    "description": "Benoît Havet (HBLABSTUDIO), développeur fullstack freelance React, Next.js, Node.js & SQL. Création, refonte de sites et CMS headless. Hauts-de-France & France.",
+    "ogAlt": "HBLABSTUDIO — Benoît Havet, développeur fullstack freelance"
+  },
+  "Footer": {
+    "services": "Services",
+    "baseline": "Studio de développement web de Benoît Havet. Création et refonte de sites, CMS headless, React, Next.js, Node.js et IA.",
+    "area": "Lille · Hauts-de-France · Remote partout en France",
+    "back": "Retour à l’accueil",
+    "stack": "Technologies",
+    "deliverables": "Ce que je livre",
+    "audience": "Pour qui ?",
+    "faq": "Questions fréquentes",
+    "ctaTitle": "Parlons de votre projet",
+    "ctaText": "Décrivez votre besoin, je vous envoie un devis détaillé gratuit sous 24h."
   }
 }

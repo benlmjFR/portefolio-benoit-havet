@@ -1,0 +1,74 @@
+.footer {
+  padding: 4rem 2rem 2rem;
+  background: var(--nav-background);
+  backdrop-filter: blur(24px) saturate(150%);
+  -webkit-backdrop-filter: blur(24px) saturate(150%);
+  border-top: 1px solid var(--border);
+  color: var(--foreground-secondary);
+  font-size: 0.9rem;
+  line-height: 1.6;
+
+  &__inner {
+    max-width: 72rem;
+    margin-inline: auto;
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: 1fr;
+
+    @media (min-width: 768px) {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  &__brand {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  &__name {
+    font-weight: 800;
+    letter-spacing: 0.2em;
+    color: var(--foreground);
+  }
+
+  &__area {
+    color: var(--pill-text);
+  }
+
+  &__socials {
+    display: flex;
+    gap: 1rem;
+
+    a:hover {
+      color: $warm-accent;
+    }
+  }
+
+  &__heading {
+    font-weight: 700;
+    color: var(--foreground);
+    margin-bottom: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    font-size: 0.8rem;
+  }
+
+  &__links {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    a:hover {
+      color: $warm-accent;
+    }
+  }
+
+  &__copy {
+    max-width: 72rem;
+    margin: 3rem auto 0;
+    font-size: 0.75rem;
+    opacity: 0.7;
+  }
+}

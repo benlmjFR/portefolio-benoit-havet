@@ -67,6 +67,14 @@
     letter-spacing: 0.025em;
   }
 
+  &__studio {
+    margin-top: 0.5rem;
+    font-size: 0.75rem;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.7);
+  }
+
   &__cta {
     display: flex;
     flex-wrap: wrap;

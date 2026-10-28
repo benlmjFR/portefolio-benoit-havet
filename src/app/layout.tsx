@@ -1,6 +1,4 @@
 export const metadata = {
-  title: "Benoît Havet",
-  description: "",
   icons: {
     icon: "/favicon.ico",
   },
