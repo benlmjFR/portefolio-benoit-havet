@@ -1,7 +1,7 @@
 // Single source of truth for SEO / brand / contact data.
-// Set NEXT_PUBLIC_SITE_URL once a custom domain (ex: https://hblabstudio.fr) is plugged in.
+// Canonical domain: every canonical / hreflang / sitemap URL is built from it.
 export const SITE_URL = (
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://portefolio-benoit-havet.vercel.app"
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.hblabstudio.com"
 ).replace(/\/$/, "");
 
 export const BRAND = "HBLABSTUDIO";
