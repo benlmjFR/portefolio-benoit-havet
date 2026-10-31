@@ -132,7 +132,7 @@ export const Hero = () => {
           <a href="#projects" className={cx("hero__cta-primary")}>
             {t("cta1")}
           </a>
-          <a href="#contact" className={cx("hero__cta-secondary")}>
+          <a href="#quick-contact" className={cx("hero__cta-secondary")}>
             {t("cta2")}
           </a>
         </motion.div>

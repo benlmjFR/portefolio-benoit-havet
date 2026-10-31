@@ -7,6 +7,7 @@ import styles from "./Contacts.module.scss";
 import { useTranslations } from "next-intl";
 import { Mail, Linkedin, ExternalLink, Instagram, FileText } from "lucide-react";
 import { EMAIL, SOCIALS, quoteMailto } from "../../lib/site";
+import { QuickContactForm } from "../QuickContactForm/QuickContactForm";
 
 const cx = classNames.bind(styles);
 
@@ -78,6 +79,8 @@ export const Contacts = () => {
             Malt
           </a>
         </motion.div>
+
+        <QuickContactForm />
 
         <p className={cx("contact__studio")}>{t("studio")}</p>
 
