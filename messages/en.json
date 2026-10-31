@@ -107,11 +107,11 @@
     }
   },
   "Availability": {
-    "banner": "🟢 Available now for freelance contracts / dev reinforcement (React / Node / Python).",
+    "banner": "🟢 Available now for freelance contracts / dev reinforcement (React / Node).",
     "bannerCta": "Contact me",
     "status": "Available now",
     "title": "Availability & role",
-    "text": "I'm available immediately, fully remote, and hybrid in Paris from December 2026, for agency subcontracting, sprint reinforcement or fast fullstack development (React / Node / Python). I plug into your team and tooling from day one and ship production code in the first week.",
+    "text": "I'm available immediately, fully remote, and hybrid in Paris from December 2026, for agency subcontracting, sprint reinforcement or fast fullstack development (React / Node). I plug into your team and tooling from day one and ship production code in the first week.",
     "roles": {
       "agency": "Agency subcontracting",
       "sprint": "Sprint reinforcement",

@@ -107,11 +107,11 @@
     }
   },
   "Availability": {
-    "banner": "🟢 Disponible immédiatement pour missions freelance / renfort dev (React / Node / Python).",
+    "banner": "🟢 Disponible immédiatement pour missions freelance / renfort dev (React / Node).",
     "bannerCta": "Me contacter",
     "status": "Disponible maintenant",
     "title": "Disponibilité & rôle",
-    "text": "Je suis disponible immédiatement en full remote, et en hybride sur Paris à partir de décembre 2026, pour de la sous-traitance d'agence, du renfort de sprint ou du développement fullstack rapide (React / Node / Python). Je m'intègre à votre équipe et à vos outils dès le premier jour et je livre du code en production dès la première semaine.",
+    "text": "Je suis disponible immédiatement en full remote, et en hybride sur Paris à partir de décembre 2026, pour de la sous-traitance d'agence, du renfort de sprint ou du développement fullstack rapide (React / Node). Je m'intègre à votre équipe et à vos outils dès le premier jour et je livre du code en production dès la première semaine.",
     "roles": {
       "agency": "Sous-traitance agence",
       "sprint": "Renfort de sprint",
