@@ -105,5 +105,33 @@
       "integration-ia-agents-llm-entreprise": "Intégration IA & agents LLM pour entreprises",
       "mission-freelance-developpeur-fullstack": "Développeur fullstack React / Node.js — mission freelance"
     }
+  },
+  "Availability": {
+    "banner": "🟢 Disponible immédiatement pour missions freelance / renfort dev (React / Node / Python).",
+    "bannerCta": "Me contacter",
+    "status": "Disponible maintenant",
+    "title": "Disponibilité & rôle",
+    "text": "Je suis disponible immédiatement en full remote, et en hybride sur Paris à partir de décembre 2026, pour de la sous-traitance d'agence, du renfort de sprint ou du développement fullstack rapide (React / Node / Python). Je m'intègre à votre équipe et à vos outils dès le premier jour et je livre du code en production dès la première semaine.",
+    "roles": {
+      "agency": "Sous-traitance agence",
+      "sprint": "Renfort de sprint",
+      "fullstack": "Dev fullstack rapide",
+      "remote": "100 % remote",
+      "paris": "Paris hybride dès déc. 2026"
+    },
+    "cta": "Proposer une mission"
+  },
+  "QuickContact": {
+    "title": "Contact rapide",
+    "subtitle": "Décrivez la mission en quelques lignes, je réponds sous 24h.",
+    "name": "Nom / société",
+    "namePlaceholder": "Agence XYZ",
+    "email": "Email",
+    "emailPlaceholder": "vous@agence.com",
+    "message": "Message",
+    "messagePlaceholder": "Stack, durée, date de démarrage, TJM…",
+    "submit": "Envoyer la demande",
+    "hint": "Le formulaire ouvre votre messagerie. Ou écrivez directement à",
+    "sent": "Votre messagerie s'est ouverte avec le message prêt à envoyer. Sinon, écrivez à"
   }
 }

@@ -1,0 +1,44 @@
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  padding: 0.5rem 1rem;
+  background: rgba(34, 197, 94, 0.12);
+  border-bottom: 1px solid rgba(34, 197, 94, 0.28);
+  color: var(--foreground);
+  font-size: 0.85rem;
+  font-weight: 600;
+  line-height: 1.35;
+  text-align: center;
+  text-transform: none;
+  letter-spacing: 0.01em;
+
+  &__text {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.55rem;
+  }
+
+  &__cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.3rem 0.85rem;
+    border-radius: 9999px;
+    background: $warm-accent;
+    color: #0a0806;
+    font-size: 0.8rem;
+    font-weight: 700;
+    white-space: nowrap;
+    transition:
+      opacity 0.2s ease,
+      transform 0.2s ease;
+
+    &:hover {
+      opacity: 0.88;
+      transform: translateY(-1px);
+    }
+  }
+}

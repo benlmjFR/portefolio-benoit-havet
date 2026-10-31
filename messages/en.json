@@ -105,5 +105,33 @@
       "integration-ia-agents-llm-entreprise": "AI Integration & LLM Agents for Businesses",
       "mission-freelance-developpeur-fullstack": "Fullstack React / Node.js Developer — Freelance Contracts"
     }
+  },
+  "Availability": {
+    "banner": "🟢 Available now for freelance contracts / dev reinforcement (React / Node / Python).",
+    "bannerCta": "Contact me",
+    "status": "Available now",
+    "title": "Availability & role",
+    "text": "I'm available immediately, fully remote, and hybrid in Paris from December 2026, for agency subcontracting, sprint reinforcement or fast fullstack development (React / Node / Python). I plug into your team and tooling from day one and ship production code in the first week.",
+    "roles": {
+      "agency": "Agency subcontracting",
+      "sprint": "Sprint reinforcement",
+      "fullstack": "Fast fullstack dev",
+      "remote": "100% remote",
+      "paris": "Hybrid Paris from Dec. 2026"
+    },
+    "cta": "Propose a contract"
+  },
+  "QuickContact": {
+    "title": "Quick contact",
+    "subtitle": "Describe the contract in a few lines, I reply within 24h.",
+    "name": "Name / company",
+    "namePlaceholder": "XYZ Agency",
+    "email": "Email",
+    "emailPlaceholder": "you@agency.com",
+    "message": "Message",
+    "messagePlaceholder": "Stack, duration, start date, daily rate…",
+    "submit": "Send request",
+    "hint": "The form opens your email app. Or write directly to",
+    "sent": "Your email app opened with the message ready to send. Otherwise, write to"
   }
 }

@@ -10,6 +10,7 @@ import CvOverlay from "../../CVOverlay/CvOverlay";
 import { AnimatedThumbnails } from "../../AnimatedThumbnails/AnimatedThumbnails";
 import { payload } from "../../Cards/Cards";
 import Contacts from "../../Contacts/Contacts";
+import { Availability } from "../../sections/Availability/Availability";
 import { Footer } from "../../layouts/Footer/Footer";
 
 const HomeTemplate = () => {
@@ -25,6 +26,7 @@ const HomeTemplate = () => {
       <Head />
       <main>
         <Hero />
+        <Availability />
         <CvOverlay />
         <TechBanner />
         <Skills />

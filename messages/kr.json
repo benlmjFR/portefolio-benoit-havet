@@ -105,5 +105,33 @@
       "integration-ia-agents-llm-entreprise": "기업을 위한 AI 통합 & LLM 에이전트",
       "mission-freelance-developpeur-fullstack": "풀스택 React / Node.js 개발자 — 프리랜서 프로젝트"
     }
+  },
+  "Availability": {
+    "banner": "🟢 프리랜서 프로젝트 / 개발 인력 지원 즉시 가능 (React / Node / Python).",
+    "bannerCta": "연락하기",
+    "status": "즉시 가능",
+    "title": "가용성 & 역할",
+    "text": "에이전시 외주, 스프린트 인력 지원, 빠른 풀스택 개발(React / Node / Python)을 위해 풀 리모트로 즉시 참여할 수 있으며, 2026년 12월부터는 파리에서 하이브리드 근무도 가능합니다. 첫날부터 팀과 도구에 합류하고 첫 주부터 프로덕션 코드를 전달합니다.",
+    "roles": {
+      "agency": "에이전시 외주",
+      "sprint": "스프린트 지원",
+      "fullstack": "빠른 풀스택 개발",
+      "remote": "100% 리모트",
+      "paris": "2026년 12월부터 파리 하이브리드"
+    },
+    "cta": "프로젝트 제안하기"
+  },
+  "QuickContact": {
+    "title": "빠른 문의",
+    "subtitle": "프로젝트를 몇 줄로 설명해 주세요. 24시간 내에 답변드립니다.",
+    "name": "이름 / 회사",
+    "namePlaceholder": "XYZ 에이전시",
+    "email": "이메일",
+    "emailPlaceholder": "you@agency.com",
+    "message": "메시지",
+    "messagePlaceholder": "기술 스택, 기간, 시작일, 일일 단가…",
+    "submit": "요청 보내기",
+    "hint": "양식을 제출하면 메일 앱이 열립니다. 또는 직접 이메일:",
+    "sent": "메일 앱이 열렸습니다. 그렇지 않으면 다음 주소로 보내주세요:"
   }
 }
