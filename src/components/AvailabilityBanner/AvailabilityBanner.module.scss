@@ -40,5 +40,11 @@
       opacity: 0.88;
       transform: translateY(-1px);
     }
+
+    &--outline {
+      background: transparent;
+      color: var(--foreground);
+      border: 1px solid $warm-accent;
+    }
   }
 }

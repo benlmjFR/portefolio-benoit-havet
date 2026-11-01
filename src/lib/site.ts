@@ -7,6 +7,7 @@ export const SITE_URL = (
 export const BRAND = "HBLABSTUDIO";
 export const PERSON = "Benoît Havet";
 export const EMAIL = "myungjae84@gmail.com";
+export const CALENDLY_URL = "https://calendly.com/myungjae84/30min";
 
 export const LEGAL = {
   legalName: "Benoît Havet",

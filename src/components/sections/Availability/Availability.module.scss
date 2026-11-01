@@ -71,11 +71,17 @@
     font-weight: 600;
   }
 
+  &__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 0.4rem;
+  }
+
   &__cta {
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
-    margin-top: 0.4rem;
     padding: 0.85rem 2rem;
     border-radius: 12px;
     background: $warm-accent;
@@ -88,6 +94,12 @@
     &:hover {
       opacity: 0.88;
       transform: translateY(-2px);
+    }
+
+    &--outline {
+      background: transparent;
+      color: var(--foreground);
+      border: 1px solid $warm-accent;
     }
   }
 }

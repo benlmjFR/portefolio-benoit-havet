@@ -109,6 +109,7 @@
   "Availability": {
     "banner": "🟢 Available now for freelance contracts / dev reinforcement (React / Node).",
     "bannerCta": "Contact me",
+    "bannerBook": "Book a call",
     "status": "Available now",
     "title": "Availability & role",
     "text": "I'm available immediately, fully remote, and hybrid in Paris from December 2026, for agency subcontracting, sprint reinforcement or fast fullstack development (React / Node). I plug into your team and tooling from day one and ship production code in the first week.",
@@ -119,7 +120,8 @@
       "remote": "100% remote",
       "paris": "Hybrid Paris from Dec. 2026"
     },
-    "cta": "Propose a contract"
+    "cta": "Propose a contract",
+    "bookCta": "Book a 30-min call"
   },
   "QuickContact": {
     "title": "Quick contact",
