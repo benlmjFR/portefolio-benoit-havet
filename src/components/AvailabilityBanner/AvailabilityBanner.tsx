@@ -2,8 +2,9 @@
 
 import classNames from "classnames/bind";
 import { useTranslations } from "next-intl";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, CalendarDays } from "lucide-react";
 import { Link } from "../../i18n/navigation";
+import { CALENDLY_URL } from "../../lib/site";
 import styles from "./AvailabilityBanner.module.scss";
 
 const cx = classNames.bind(styles);
@@ -20,6 +21,15 @@ export const AvailabilityBanner = () => {
         {t("bannerCta")}
         <ArrowRight size={14} aria-hidden />
       </Link>
+      <a
+        href={CALENDLY_URL}
+        target="_blank"
+        rel="noopener noreferrer"
+        className={cx("banner__cta", "banner__cta--outline")}
+      >
+        <CalendarDays size={14} aria-hidden />
+        {t("bannerBook")}
+      </a>
     </div>
   );
 };
