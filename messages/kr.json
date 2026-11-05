@@ -88,7 +88,7 @@
     "legal": "법적 고지 (FR)",
     "services": "서비스 (FR)",
     "baseline": "Benoît Havet의 웹 개발 스튜디오. 웹사이트, 리뉴얼, 헤드리스 CMS, React, Next.js, Node.js, AI.",
-    "area": "릴 · 오드프랑스 · 파리 상주 근무 · 프랑스 전역 원격, 하이브리드 또는 현장 근무",
+    "area": "파리 · 일드프랑스 · 오드프랑스 상주 근무 · 프랑스 전역 원격, 하이브리드 또는 현장 근무",
     "back": "홈으로",
     "stack": "기술",
     "deliverables": "제공 내용",
@@ -98,7 +98,7 @@
     "ctaText": "필요한 내용을 알려주시면 24시간 내 무료 견적을 보내드립니다.",
     "servicesIntro": "스타트업, 중소기업, 대기업의 프로젝트를 아이디어부터 프로덕션 배포까지 함께합니다: 브레인스토밍, 설계, 프론트엔드·백엔드 개발, 그리고 딜리버리까지. 총 7년 경력: 스타트업에서 3년간 제품 프론트엔드를 처음부터 구축했고, 에이전시(Razorfish – Publicis)에서 4년간 컨설턴트이자 프로젝트 리드로 일했습니다. 창업가로서 프로젝트를 A부터 Z까지 이끌어 갑니다.",
     "serviceLinks": {
-      "developpeur-freelance-react-nextjs-lille": "릴(Lille) 프리랜서 React & Next.js 개발자",
+      "developpeur-freelance-react-nextjs-paris-hauts-de-france": "파리 & 오드프랑스 프리랜서 React & Next.js 개발자",
       "refonte-site-web-cms-headless": "웹사이트 리뉴얼 & 헤드리스 CMS (Storyblok, Contentful)",
       "creation-site-internet-pme-hauts-de-france": "중소기업 웹사이트 제작 — 오드프랑스(Hauts-de-France)",
       "developpeur-nodejs-sql-freelance": "프리랜서 Node.js, NestJS & SQL 개발자 — API",

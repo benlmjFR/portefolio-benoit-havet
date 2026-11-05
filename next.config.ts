@@ -16,6 +16,11 @@ const nextConfig: NextConfig = {
         destination: "https://www.hblabstudio.com/:path*",
         permanent: true,
       },
+      {
+        source: "/:locale/developpeur-freelance-react-nextjs-lille",
+        destination: "/:locale/developpeur-freelance-react-nextjs-paris-hauts-de-france",
+        permanent: true,
+      },
     ];
   },
 };
