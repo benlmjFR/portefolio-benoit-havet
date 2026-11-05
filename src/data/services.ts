@@ -13,13 +13,13 @@ export type Service = {
 
 export const services: Service[] = [
   {
-    slug: "developpeur-freelance-react-nextjs-lille",
-    metaTitle: "Développeur freelance React & Next.js à Lille",
+    slug: "developpeur-freelance-react-nextjs-paris-hauts-de-france",
+    metaTitle: "Développeur freelance React & Next.js — Paris & Hauts-de-France",
     metaDescription:
-      "Développeur freelance React / Next.js à Lille et dans les Hauts-de-France. Sites rapides, SEO-friendly et applications web sur mesure. Devis gratuit sous 24h.",
-    h1: "Développeur freelance React & Next.js à Lille et dans les Hauts-de-France",
+      "Développeur freelance React / Next.js à Paris (Île-de-France) et dans les Hauts-de-France. Sites rapides, SEO-friendly et applications web sur mesure. Devis gratuit sous 24h.",
+    h1: "Développeur freelance React & Next.js à Paris et dans les Hauts-de-France",
     intro:
-      "Je conçois des sites et applications web avec React et Next.js : rapides, bien référencés et faciles à faire évoluer. J'interviens à Lille, dans toute la région Hauts-de-France (Arras, Lens, Valenciennes, Amiens, Dunkerque…) et en remote partout en France (Paris, Lyon, Bordeaux, Nantes, Toulouse…). Habitué au travail à distance en autonomie, y compris avec des équipes internationales.",
+      "Je conçois des sites et applications web avec React et Next.js : rapides, bien référencés et faciles à faire évoluer. J'interviens à Paris, en Île-de-France, dans toute la région Hauts-de-France (Arras, Lens, Valenciennes, Amiens, Dunkerque…) et en remote partout en France (Lyon, Bordeaux, Nantes, Toulouse…). Habitué au travail à distance en autonomie, y compris avec des équipes internationales.",
     audience:
       "PME, startups, agences web en renfort et grands comptes qui cherchent un développeur front-end / fullstack autonome, disponible rapidement.",
     deliverables: [
@@ -28,11 +28,18 @@ export const services: Service[] = [
       "SEO technique : métadonnées, sitemap, données structurées, multilingue",
       "Renfort d'équipe en régie ou au forfait, courte ou longue durée",
     ],
-    stack: ["React", "Next.js", "TypeScript", "SCSS", "Framer Motion", "Vercel"],
+    stack: [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "SCSS",
+      "Framer Motion",
+      "Vercel",
+    ],
     faq: [
       {
-        q: "Travaillez-vous sur site à Lille ou uniquement en remote ?",
-        a: "Les deux : présentiel à Lille, dans les Hauts-de-France et à Paris, et en remote, hybride ou sur site dans les autres villes de France (Lyon, Bordeaux, Nantes, Toulouse…). Je travaille en remote depuis longtemps, en autonomie et en collaboration avec des équipes étrangères.",
+        q: "Travaillez-vous sur site à Paris et dans les Hauts-de-France ou uniquement en remote ?",
+        a: "Les deux : présentiel à Paris, en Île-de-France et dans les Hauts-de-France, et en remote, hybride ou sur site dans les autres villes de France (Lyon, Bordeaux, Nantes, Toulouse…). Je travaille en remote depuis longtemps, en autonomie et en collaboration avec des équipes étrangères.",
       },
       {
         q: "Quel est le délai pour démarrer une mission ?",
@@ -56,7 +63,14 @@ export const services: Service[] = [
       "Front Next.js sur mesure, multilingue, avec redirections 301 pour garder le référencement",
       "Formation de vos équipes à l'édition du contenu",
     ],
-    stack: ["Next.js", "Storyblok", "Contentful", "Node.js", "TypeScript", "Vercel"],
+    stack: [
+      "Next.js",
+      "Storyblok",
+      "Contentful",
+      "Node.js",
+      "TypeScript",
+      "Vercel",
+    ],
     faq: [
       {
         q: "Vais-je perdre mon référencement en changeant de site ?",
@@ -77,7 +91,7 @@ export const services: Service[] = [
     intro:
       "Avec HBLABSTUDIO, je crée des sites vitrines modernes pour les PME, commerces et artisans de la région : un site qui charge vite, qui donne confiance et qui vous fait trouver sur Google localement.",
     audience:
-      "PME, commerces, artisans, restaurants et indépendants de Lille, de la métropole lilloise et de toute la région.",
+      "PME, commerces, artisans, restaurants et indépendants des Hauts-de-France et de Paris / Île-de-France.",
     deliverables: [
       "Site vitrine sur mesure, mobile-first, livré en quelques semaines",
       "Contenu modifiable par vous-même (CMS simple)",
@@ -100,7 +114,7 @@ export const services: Service[] = [
     slug: "developpeur-nodejs-sql-freelance",
     metaTitle: "Développeur Node.js, NestJS & SQL freelance — API",
     metaDescription:
-      "Développeur back-end Node.js / NestJS / SQL freelance : API REST sécurisées, Prisma, PostgreSQL, Supabase. Missions en régie ou au forfait, Lille & remote France.",
+      "Développeur back-end Node.js / NestJS / SQL freelance : API REST sécurisées, Prisma, PostgreSQL, Supabase. Missions en régie ou au forfait, Paris, Hauts-de-France & remote France.",
     h1: "Développeur Node.js, NestJS & SQL freelance",
     intro:
       "Je développe des API et back-ends robustes en Node.js et NestJS, avec des bases SQL bien modélisées (PostgreSQL, Prisma, Supabase). Idéal pour compléter un front React / Next.js ou renforcer une équipe produit.",
@@ -112,7 +126,15 @@ export const services: Service[] = [
       "Intégrations tierces (paiement, CRM, emailing, IA)",
       "Tests, documentation et mise en production",
     ],
-    stack: ["Node.js", "NestJS", "TypeScript", "SQL", "PostgreSQL", "Prisma", "Supabase"],
+    stack: [
+      "Node.js",
+      "NestJS",
+      "TypeScript",
+      "SQL",
+      "PostgreSQL",
+      "Prisma",
+      "Supabase",
+    ],
     faq: [
       {
         q: "Intervenez-vous en régie (TJM) ou au forfait ?",
@@ -128,7 +150,8 @@ export const services: Service[] = [
     h1: "Intégration IA et agents LLM pour les entreprises",
     intro:
       "J'intègre des modèles de langage (Claude, OpenAI) dans des applications en production : assistants métier, recherche dans vos documents (RAG), agents qui automatisent des tâches répétitives via MCP.",
-    audience: "PME et équipes produit qui veulent des cas d'usage IA concrets et mesurables.",
+    audience:
+      "PME et équipes produit qui veulent des cas d'usage IA concrets et mesurables.",
     deliverables: [
       "Atelier de cadrage : quels process automatiser, quel ROI",
       "Prototype rapide puis mise en production sécurisée",
@@ -150,7 +173,7 @@ export const services: Service[] = [
       "Recruteurs, ESN, chasseurs de têtes : développeur fullstack React, Next.js, Node.js, SQL et IA disponible pour missions freelance. CV, TJM et disponibilités sur demande.",
     h1: "Développeur fullstack React / Next.js / Node.js disponible en mission freelance",
     intro:
-      "Recruteurs, ESN et chasseurs de têtes : je suis disponible pour des missions freelance fullstack, en remote, en hybride ou sur site (Lille / Hauts-de-France, Paris en présentiel, et partout en France selon la mission). Habitué au remote en autonomie et à la collaboration avec des équipes internationales. Expérience en agence (Razorfish – Publicis) sur des projets grands comptes comme Nissan.",
+      "Recruteurs, ESN et chasseurs de têtes : je suis disponible pour des missions freelance fullstack, en remote, en hybride ou sur site (Paris / Île-de-France et Hauts-de-France en présentiel, et partout en France selon la mission). Habitué au remote en autonomie et à la collaboration avec des équipes internationales. Expérience en agence (Razorfish – Publicis) sur des projets grands comptes comme Nissan.",
     audience: "Cabinets de recrutement, ESN, grands comptes et scale-ups.",
     deliverables: [
       "Front-end React / Next.js / TypeScript, design systems",
@@ -158,7 +181,16 @@ export const services: Service[] = [
       "CMS headless (Storyblok, Contentful)",
       "IA générative : LLM, agents, RAG",
     ],
-    stack: ["React", "Next.js", "TypeScript", "Node.js", "NestJS", "SQL", "Storyblok", "Contentful"],
+    stack: [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "Node.js",
+      "NestJS",
+      "SQL",
+      "Storyblok",
+      "Contentful",
+    ],
     faq: [
       {
         q: "Comment obtenir le CV et le TJM ?",
@@ -168,4 +200,5 @@ export const services: Service[] = [
   },
 ];
 
-export const getService = (slug: string) => services.find((s) => s.slug === slug);
+export const getService = (slug: string) =>
+  services.find((s) => s.slug === slug);

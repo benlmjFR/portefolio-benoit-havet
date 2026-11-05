@@ -16,7 +16,7 @@ export const LEGAL = {
   siret: "533 370 557 00068",
   vat: "FR71533370557",
   registry: "Inscrit au Registre national des entreprises (RNE), non inscrit au RCS",
-  address: "Lille, Hauts-de-France, France",
+  address: "Hauts-de-France, France",
   host: "Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, États-Unis — vercel.com",
 };
 
@@ -30,7 +30,6 @@ export const SOCIALS = {
 export const AREA_SERVED = {
   region: "Hauts-de-France",
   cities: [
-    "Lille",
     "Roubaix",
     "Tourcoing",
     "Villeneuve-d'Ascq",

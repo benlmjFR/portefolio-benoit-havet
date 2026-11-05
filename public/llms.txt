@@ -1,9 +1,9 @@
 # HBLABSTUDIO — Benoît Havet
 
-> Studio de développement web de Benoît Havet, développeur fullstack freelance (React, Next.js, Node.js, SQL, IA). Basé dans les Hauts-de-France (Lille), intervient en présentiel à Lille, dans les Hauts-de-France et à Paris, et en remote, hybride ou sur site partout en France (Lyon, Bordeaux, Nantes, Toulouse…). Habitué au travail à distance en autonomie et à la collaboration avec des équipes internationales. Livre des sites clés en main avec une interface de contribution simple pour les non-développeurs (CMS headless).
+> Studio de développement web de Benoît Havet, développeur fullstack freelance (React, Next.js, Node.js, SQL, IA). Basé dans les Hauts-de-France, intervient en présentiel à Paris (Île-de-France) et dans les Hauts-de-France, et en remote, hybride ou sur site partout en France (Lyon, Bordeaux, Nantes, Toulouse…). Habitué au travail à distance en autonomie et à la collaboration avec des équipes internationales. Livre des sites clés en main avec une interface de contribution simple pour les non-développeurs (CMS headless).
 
 ## Services
-- [Développeur freelance React & Next.js à Lille](https://www.hblabstudio.com/fr/developpeur-freelance-react-nextjs-lille)
+- [Développeur freelance React & Next.js — Paris & Hauts-de-France](https://www.hblabstudio.com/fr/developpeur-freelance-react-nextjs-paris-hauts-de-france)
 - [Refonte de site web & CMS headless (Storyblok, Contentful)](https://www.hblabstudio.com/fr/refonte-site-web-cms-headless)
 - [Création de site internet pour PME — Hauts-de-France](https://www.hblabstudio.com/fr/creation-site-internet-pme-hauts-de-france)
 - [Développeur Node.js, NestJS & SQL freelance](https://www.hblabstudio.com/fr/developpeur-nodejs-sql-freelance)
