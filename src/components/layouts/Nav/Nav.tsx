@@ -44,6 +44,7 @@ export const Nav = () => {
   };
 
   const dataNav = [
+    { label: t("about"),    href: "/#about"    },
     { label: t("projects"), href: "/#projects" },
     { label: t("skills"),   href: "/#skills"   },
     { label: t("contact"),  href: "/#contact"  },

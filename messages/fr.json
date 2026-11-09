@@ -1,21 +1,121 @@
 {
   "Navbar": {
+    "about": "À propos",
     "projects": "Projets",
     "skills": "Compétences",
     "contact": "Contact"
   },
   "Hero": {
     "title": "Benoît Havet",
-    "subtitle": "Fullstack Engineer — développeur augmenté par l'IA",
+    "subtitle": "Senior Full-Stack Developer & Tech Lead – React · Next.js · NestJS · IA",
     "badge": "Disponible immédiatement",
-    "tagline": "Développeur freelance React · Next.js · Node.js — Paris (Île-de-France) – Hauts-de-France · Remote partout en France",
+    "tagline": "Paris / IDF – Remote immédiat · Hybride dès le 8 décembre 2026",
     "cta1": "Voir mes projets",
     "cta2": "Demander un devis",
     "studio": "Studio web HBLABSTUDIO"
   },
   "About": {
-    "title": "À propos",
-    "description": "Développeur fullstack avec plusieurs années d'expérience sur des produits web et mobile, je construis aujourd'hui des applications propulsées par l'IA en tant que co-fondateur — en orchestrant des agents LLM, l'API Claude et des intégrations MCP pour livrer vite et bien. Je fais le pont entre expertise technique et vision produit : je sais quoi construire, comment le construire, et de plus en plus, comment le déléguer à l'IA."
+    "title": "À propos & expérience",
+    "years": "7 ans d'expérience",
+    "description": "Senior Full-Stack Developer & Tech Lead avec 7 ans d'expérience, je conçois et pilote des produits web de bout en bout : architecture React / Next.js (App Router, Server Components), API NestJS / Node.js et PostgreSQL, CI/CD et qualité (TDD, Jest, Cypress). J'encadre les équipes techniques (code review, mentoring, screening) et j'intègre l'IA en production : agents LLM, RAG, MCP et API Claude.",
+    "experienceTitle": "Parcours",
+    "stackTitle": "Stack & compétences clés",
+    "experience": [
+      {
+        "period": "07/2025 → aujourd'hui",
+        "role": "Freelance – Senior Full-Stack & Tech Lead",
+        "company": "HBLabstudio",
+        "description": "Conception d'architectures web sur-mesure, intégration d'agents IA/RAG, projets clients et produits internes (LocalGoodSpots, Saïmé Boulangerie, Technident Arras)."
+      },
+      {
+        "period": "Agence – Groupe Publicis",
+        "role": "Consultant & Lead Developer",
+        "company": "Razorfish",
+        "description": "Lead technique sur des projets grands comptes (Nissan…) : encadrement technique de l'équipe, revues de code, screening et recrutement de développeurs, choix d'architecture, Design System et Storybook, accessibilité et performance (Core Web Vitals)."
+      },
+      {
+        "period": "Startup",
+        "role": "Développeur Front-end / Full-Stack",
+        "company": "Startup produit",
+        "description": "Création from scratch du front de produits web et mobile en React / TypeScript, en méthodologie Scrum/Agile, avec tests et CI/CD."
+      }
+    ],
+    "stack": [
+      {
+        "title": "Rôles",
+        "items": [
+          "Senior Full-Stack Developer",
+          "Lead Developer",
+          "Tech Lead"
+        ]
+      },
+      {
+        "title": "Front-end",
+        "items": [
+          "React",
+          "Next.js (App Router, Server Components)",
+          "TypeScript",
+          "Tailwind CSS"
+        ]
+      },
+      {
+        "title": "Back-end & data",
+        "items": [
+          "Node.js",
+          "NestJS",
+          "PostgreSQL",
+          "Prisma",
+          "REST",
+          "GraphQL"
+        ]
+      },
+      {
+        "title": "DevOps & cloud",
+        "items": [
+          "CI/CD",
+          "Docker",
+          "AWS",
+          "Vercel"
+        ]
+      },
+      {
+        "title": "Qualité & sécurité",
+        "items": [
+          "Jest",
+          "Cypress",
+          "TDD",
+          "Accessibilité (a11y)",
+          "Core Web Vitals",
+          "SSO/OIDC"
+        ]
+      },
+      {
+        "title": "Design System",
+        "items": [
+          "Design System",
+          "Storybook",
+          "Atomic Design"
+        ]
+      },
+      {
+        "title": "IA",
+        "items": [
+          "LLM",
+          "RAG",
+          "Agents IA",
+          "MCP",
+          "Claude API"
+        ]
+      },
+      {
+        "title": "Méthodes & leadership",
+        "items": [
+          "Scrum/Agile",
+          "Code Review",
+          "Mentoring"
+        ]
+      }
+    ]
   },
   "Skills": [
     {
@@ -43,10 +143,10 @@
       "description3": "Animations, micro-interactions et prototypage pour renforcer l'émotion et l'engagement."
     },
     {
-      "title": "Architecture & CMS",
-      "description1": "Mise en place d'architectures modernes basées sur des CMS headless (Storyblok, Contentful…).",
-      "description2": "Connexion fluide entre front-end et back-end via API, Node.js et intégrations sur mesure.",
-      "description3": "Maintenance, scalabilité et automatisation du déploiement pour un produit durable."
+      "title": "Lead technique & architecture",
+      "description1": "Tech Lead / Lead Developer : choix d'architecture, découpage technique, revues de code et standards de qualité partagés par l'équipe.",
+      "description2": "Mentoring et montée en compétences des développeurs, screening technique lors des recrutements, rituels Scrum/Agile.",
+      "description3": "Industrialisation : CI/CD, Docker, déploiements AWS / Vercel, CMS headless (Storyblok, Contentful) et scalabilité pour un produit durable."
     }
   ],
   "CvOverlay": {
@@ -80,9 +180,9 @@
     "disclaimer": "*Certains projets présentés ont été réalisés en tant que salarié au sein de l'agence Razorfish (Groupe Publicis). Ces travaux sont exposés ici à titre strictement illustratif pour démontrer mes compétences techniques (Front-end, Intégration, UI/UX). Les droits de propriété intellectuelle, marques et logos appartiennent exclusivement aux clients respectifs et à l'agence. En aucun cas ce portfolio n'a de vocation commerciale ou ne revendique la propriété des sites présentés."
   },
   "Metadata": {
-    "title": "Développeur freelance React / Next.js – Île-de-France & France – HBLABSTUDIO",
-    "description": "Benoît Havet (HBLABSTUDIO), développeur fullstack freelance React, Next.js, Node.js. Sites, refontes, CMS headless. Paris (Île-de-France), Hauts-de-France et remote partout en France : Lyon, Bordeaux, Nantes…",
-    "ogAlt": "HBLABSTUDIO — Benoît Havet, développeur fullstack freelance"
+    "title": "Benoît Havet – Senior Full-Stack Developer & Tech Lead React / Next.js / NestJS / IA – Paris | HBLABSTUDIO",
+    "description": "Senior Full-Stack Developer & Tech Lead freelance, 7 ans d'expérience : React, Next.js (App Router, Server Components), TypeScript, NestJS, PostgreSQL, CI/CD, IA (LLM, RAG, agents, MCP). Paris / IDF – remote immédiat, hybride dès le 8 décembre 2026.",
+    "ogAlt": "HBLABSTUDIO — Benoît Havet, Senior Full-Stack Developer & Tech Lead"
   },
   "Footer": {
     "legal": "Mentions légales",
@@ -96,7 +196,7 @@
     "faq": "Questions fréquentes",
     "ctaTitle": "Parlons de votre projet",
     "ctaText": "Décrivez votre besoin, je vous envoie un devis détaillé gratuit sous 24h.",
-    "servicesIntro": "J'accompagne startups, PME et grands comptes de l'idée à la mise en production : brainstorming, conception, développement front et back, jusqu'à la delivery. 7 ans d'expérience : 3 ans en startup, où j'ai créé le front de produits from scratch, et 4 ans en agence (Razorfish – Publicis) comme consultant et lead de projets. Entrepreneur, je pilote les projets de A à Z.",
+    "servicesIntro": "J'accompagne startups, PME et grands comptes de l'idée à la mise en production : architecture, conception, développement front et back, jusqu'à la delivery. 7 ans d'expérience : startup (fronts produits créés from scratch), agence Razorfish – Publicis comme Consultant & Lead Developer, puis freelance HBLabstudio depuis juillet 2025. Tech Lead, je pilote les projets de A à Z.",
     "serviceLinks": {
       "developpeur-freelance-react-nextjs-paris-hauts-de-france": "Développeur freelance React & Next.js — Paris & Hauts-de-France",
       "refonte-site-web-cms-headless": "Refonte de site web & CMS headless (Storyblok, Contentful)",
@@ -112,13 +212,13 @@
     "bannerBook": "Réserver un appel",
     "status": "Disponible maintenant",
     "title": "Disponibilité & rôle",
-    "text": "Je suis disponible immédiatement en full remote, et en hybride sur Paris à partir de décembre 2026, pour de la sous-traitance d'agence, du renfort de sprint ou du développement fullstack rapide (React / Node). Je m'intègre à votre équipe et à vos outils dès le premier jour et je livre du code en production dès la première semaine.",
+    "text": "Je suis disponible immédiatement en full remote, et en hybride sur Paris / Île-de-France à partir du 8 décembre 2026, pour des missions de Senior Full-Stack Developer, Lead Developer ou Tech Lead (React / Next.js / NestJS), de la sous-traitance d'agence ou du renfort de sprint. Je m'intègre à votre équipe et à vos outils dès le premier jour et je livre du code en production dès la première semaine.",
     "roles": {
       "agency": "Sous-traitance agence",
       "sprint": "Renfort de sprint",
       "fullstack": "Dev fullstack rapide",
       "remote": "100 % remote",
-      "paris": "Paris hybride dès déc. 2026"
+      "paris": "Paris hybride dès le 8 déc. 2026"
     },
     "cta": "Proposer une mission",
     "bookCta": "Réserver un appel de 30 min"

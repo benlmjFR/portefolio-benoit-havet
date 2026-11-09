@@ -91,21 +91,21 @@ export const Hero = () => {
             delay: 0.5,
           }}
         >
-          {subtitleText.split("").map((char, index) => (
+          {subtitleText.split(" ").map((word, index) => (
             <motion.span
-              key={index}
-              initial={{ opacity: 0, scale: 0.8 }}
-              whileInView={{ opacity: 1, scale: 1 }}
+              key={`${word}-${index}`}
+              initial={{ opacity: 0, y: 6 }}
+              whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.6 }}
               transition={{
                 type: "spring",
                 stiffness: 300,
                 damping: 25,
-                delay: 0.5 + index * 0.05,
+                delay: 0.5 + index * 0.08,
               }}
-              style={{ display: "inline-block" }}
+              style={{ display: "inline-block", marginRight: "0.3em" }}
             >
-              {char === " " ? " " : char}
+              {word}
             </motion.span>
           ))}
         </motion.p>
