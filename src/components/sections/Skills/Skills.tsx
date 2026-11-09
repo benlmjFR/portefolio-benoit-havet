@@ -9,39 +9,28 @@ const cx = classNames.bind(styles);
 
 const skills = [
   {
-    tags: [
-      "AI & Agents",
-      "Claude API",
-      "RAG",
-      "Vector DB",
-      "MCP",
-      "Prompt Engineering",
-      "LLM",
-      "AI Agents",
-    ],
+    tags: ["LLM", "RAG", "AI Agents", "MCP", "Claude API", "Vector DB", "Prompt Engineering"],
     backgroundColor: "rgba(22, 14, 6, 0.50)",
     dynamicColor: "#FFFFFF",
   },
   {
-    tags: ["API", "Back-end", "Node.js", "NestJS", "Prisma", "SQL", "Supabase"],
+    tags: ["Node.js", "NestJS", "TypeScript", "PostgreSQL", "Prisma", "REST", "GraphQL", "SSO/OIDC", "Docker", "AWS"],
     backgroundColor: "rgba(10, 8, 4, 0.58)",
     dynamicColor: "#FFFFFF",
   },
   {
-    tags: ["SPA", "Mobile App", "PWA", "Performance", "Tracking", "Testing"],
+    tags: ["React", "Next.js App Router", "Server Components", "TypeScript", "Tailwind CSS", "Core Web Vitals", "a11y", "Jest", "Cypress", "TDD"],
     backgroundColor: "rgba(20, 14, 4, 0.52)",
     dynamicColor: "#FFFFFF",
   },
   {
-    tags: [
-      "UI/UX Design",
-      "User Experience",
-      "Design Collaboration",
-      "Micro-Interactions",
-      "Prototyping",
-      "Motion Design",
-    ],
+    tags: ["Design System", "Storybook", "Atomic Design", "UI/UX Design", "Prototyping", "Motion Design"],
     backgroundColor: "rgba(16, 10, 6, 0.55)",
+    dynamicColor: "#FFFFFF",
+  },
+  {
+    tags: ["Tech Lead", "Lead Developer", "Code Review", "Mentoring", "Scrum/Agile", "CI/CD", "Vercel", "Headless CMS"],
+    backgroundColor: "rgba(12, 9, 5, 0.56)",
     dynamicColor: "#FFFFFF",
   },
 ];

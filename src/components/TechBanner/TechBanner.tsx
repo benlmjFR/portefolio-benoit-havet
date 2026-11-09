@@ -25,7 +25,13 @@ import {
   SiPrisma,
   SiSupabase,
   SiSqlite,
-
+  SiPostgresql,
+  SiGraphql,
+  SiDocker,
+  SiAmazonwebservices,
+  SiVercel,
+  SiTailwindcss,
+  SiClaude,
 } from "react-icons/si";
 import { Orientation, useOrientation } from "@/src/hooks/useOrientation";
 
@@ -54,6 +60,13 @@ const icons = {
   Prisma: SiPrisma,
   Supabase: SiSupabase,
   Sql: SiSqlite,
+  PostgreSQL: SiPostgresql,
+  GraphQL: SiGraphql,
+  Docker: SiDocker,
+  AWS: SiAmazonwebservices,
+  Vercel: SiVercel,
+  TailwindCSS: SiTailwindcss,
+  ClaudeAPI: SiClaude,
 };
 
 const technos = [
@@ -68,7 +81,13 @@ const technos = [
   { name: "NestJS", url: "https://nestjs.com/" },
   { name: "Prisma", url: "https://www.prisma.io/" },
   { name: "Supabase", url: "https://supabase.com/" },
-  { name: "SQL", url: "https://www.w3schools.com/sql/" },
+  { name: "PostgreSQL", url: "https://www.postgresql.org/" },
+  { name: "GraphQL", url: "https://graphql.org/" },
+  { name: "Docker", url: "https://www.docker.com/" },
+  { name: "AWS", url: "https://aws.amazon.com/" },
+  { name: "Vercel", url: "https://vercel.com/" },
+  { name: "Tailwind CSS", url: "https://tailwindcss.com/" },
+  { name: "Claude API", url: "https://docs.anthropic.com/" },
   { name: "npm", url: "https://www.npmjs.com/" },
   { name: "Git", url: "https://git-scm.com/" },
   { name: "Framer Motion", url: "https://www.framer.com/motion/" },

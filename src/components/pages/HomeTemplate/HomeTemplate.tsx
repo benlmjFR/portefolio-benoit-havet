@@ -11,6 +11,7 @@ import { AnimatedThumbnails } from "../../AnimatedThumbnails/AnimatedThumbnails"
 import { payload } from "../../Cards/Cards";
 import Contacts from "../../Contacts/Contacts";
 import { Availability } from "../../sections/Availability/Availability";
+import { About } from "../../sections/About/About";
 import { Footer } from "../../layouts/Footer/Footer";
 
 const HomeTemplate = () => {
@@ -27,6 +28,7 @@ const HomeTemplate = () => {
       <main>
         <Hero />
         <Availability />
+        <About />
         <CvOverlay />
         <TechBanner />
         <Skills />
